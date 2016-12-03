@@ -13,108 +13,153 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="campusshark.dhruv.swiftly.CabActivity">
 
-    <!--<SearchView-->
-        <!--android:id="@+id/pickLocation"-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="45dp"-->
-        <!--android:queryHint="Enter Pickup Location"-->
-        <!--android:background="@color/colorPrimary"-->
-        <!--android:layout_alignParentTop="true"-->
-        <!--android:layout_alignParentRight="true"-->
-        <!--android:layout_alignParentEnd="true" />-->
-
-    <!--<SearchView-->
-        <!--android:id="@+id/dropLocation"-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="45dp"-->
-        <!--android:queryHint="Enter Drop Location"-->
-        <!--android:background="@color/colorPrimary"-->
-        <!--android:layout_marginTop="69dp"-->
-        <!--android:layout_alignParentTop="true"-->
-        <!--android:layout_alignParentLeft="true"-->
-        <!--android:layout_alignParentStart="true" />-->
-
-    <!--<Button-->
-        <!--android:id="@+id/btnPickUpLocation"-->
-        <!--android:layout_width="140dp"-->
-        <!--android:layout_height="30dp" />-->
-
-    <RelativeLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginRight="100dp"
-        android:layout_marginTop="198dp">
-
-        <com.uber.sdk.android.rides.RideRequestButton
-            android:id="@+id/btn_uber_ride"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            uber:ub__style="black" />
-    </RelativeLayout>
-
     <RelativeLayout
         android:id="@+id/pickUpRl"
         android:layout_width="match_parent"
-        android:background="@color/uber_white"
-        android:layout_height="45dp"
-        android:layout_alignParentTop="true"
+        android:layout_height="55dp"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true">
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/uber_white">
 
         <ImageView
             android:layout_width="30dp"
+            android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
-            android:src="@drawable/locationsearch"
-            android:layout_height="wrap_content" />
+            android:src="@drawable/locationsearch" />
 
         <TextView
-            android:textStyle="bold"
-            android:textSize="20dp"
-            android:layout_marginLeft="98dp"
-            android:text="Select Pickup Location"
+            android:id="@+id/textView"
             android:layout_width="match_parent"
             android:layout_height="35dp"
-            android:id="@+id/textView"
-            android:layout_centerVertical="true"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
-            android:layout_marginStart="58dp" />
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="98dp"
+            android:layout_marginStart="58dp"
+            android:text="Select Pickup Location"
+            android:textSize="20dp"
+            android:textStyle="bold" />
 
     </RelativeLayout>
 
     <RelativeLayout
         android:id="@+id/dropRL"
         android:layout_width="match_parent"
-        android:background="@color/uber_white"
-        android:layout_height="45dp"
-        android:layout_below="@+id/pickUpRl"
+        android:layout_height="55dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_marginTop="26dp">
+        android:layout_below="@+id/pickUpRl"
+        android:layout_marginTop="26dp"
+        android:background="@color/uber_white">
 
         <ImageView
             android:layout_width="30dp"
+            android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
-            android:src="@drawable/locationsearch"
-            android:layout_height="wrap_content" />
+            android:src="@drawable/locationsearch" />
 
         <TextView
-            android:textStyle="bold"
-            android:textSize="20dp"
-            android:layout_marginLeft="18dp"
-            android:text="Select Drop Location"
+            android:id="@+id/textView1"
             android:layout_width="match_parent"
             android:layout_height="35dp"
-            android:id="@+id/textView1"
-            android:layout_centerVertical="true"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
-            android:layout_marginStart="58dp" />
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="18dp"
+            android:layout_marginStart="58dp"
+            android:text="Select Drop Location"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/uber_details"
+        android:layout_width="150dp"
+        android:layout_height="180dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@color/orange">
+
+        <TextView
+            android:id="@+id/txt_uber_dis"
+            android:layout_marginTop="10dp"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+        <TextView
+            android:id="@+id/txt1"
+            android:layout_width="match_parent"
+            android:textSize="10dp"
+            android:textStyle="bold"
+            android:text="_________________________________"
+            android:layout_height="10dp"
+            android:layout_below="@+id/txt_uber_dis" />
+
+        <TextView
+            android:id="@+id/txt_uber_cost"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:layout_below="@id/txt1"
+            android:layout_width="match_parent"
+            android:layout_height="55dp" />
+        <TextView
+            android:layout_below="@id/txt_uber_cost"
+            android:layout_width="match_parent"
+            android:textSize="10dp"
+            android:id="@+id/txt2"
+            android:textStyle="bold"
+            android:text="_________________________________"
+            android:layout_height="10dp" />
+
+        <TextView
+            android:id="@+id/txt_uber_time"
+            android:layout_below="@id/txt2"
+            android:layout_width="match_parent"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:layout_height="55dp" />
+
 
     </RelativeLayout>
 
+    <RelativeLayout
+        android:id="@+id/olaDetails"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="11dp"
+        android:layout_marginRight="11dp"
+        android:background="@color/teal">
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/dropRL"
+        android:layout_marginTop="50dp">
+
+        <com.uber.sdk.android.rides.RideRequestButton
+            android:id="@+id/btn_uber_ride"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            uber:ub__style="black" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/uberLogo"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_above="@+id/uber_details"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/uberlogo" />
 
 </RelativeLayout>

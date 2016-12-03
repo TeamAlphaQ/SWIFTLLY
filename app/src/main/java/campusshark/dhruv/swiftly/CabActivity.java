@@ -1,7 +1,9 @@
 package campusshark.dhruv.swiftly;
 
 import android.app.Activity;
+import android.app.ProgressDialog;
 import android.content.Intent;
+import android.os.AsyncTask;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -32,6 +34,11 @@ import com.uber.sdk.rides.client.SessionConfiguration;
 import com.uber.sdk.rides.client.error.ApiError;
 import com.uber.sdk.rides.client.model.PriceEstimate;
 
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+import org.w3c.dom.Text;
+
 import java.util.Arrays;
 
 public class CabActivity extends AppCompatActivity {
@@ -41,16 +48,17 @@ public class CabActivity extends AppCompatActivity {
     public TextView pickTxt;
     public TextView dropTxt;
 
-    int PLACE_AUTOCOMPLETE_REQUEST_CODE_PICKUP = 1;
-    int PLACE_AUTOCOMPLETE_REQUEST_CODE_DROP = 2;
+    public TextView tvUberDis;
+    public TextView tvUbertime;
+    public TextView tvUberCost;
+
     public RelativeLayout pickUp;
     public RelativeLayout drop;
-    public LatLng pickLatLng;
-    public LatLng dropLatLng;
-    public double pickLat, pickLang;
-    public double dropLat, dropLng;
-    String pickName, pickAddr;
-    String dropName, dropAddr;
+    public String jsonStr;
+
+    public double uberDistance;
+    public int uberEstimate;
+    public float uberDuration;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -67,6 +75,10 @@ public class CabActivity extends AppCompatActivity {
         drop = (RelativeLayout) findViewById(R.id.dropRL);
         pickTxt = (TextView) findViewById(R.id.textView);
         dropTxt = (TextView) findViewById(R.id.textView1);
+
+        tvUberCost = (TextView) findViewById(R.id.txt_uber_cost);
+        tvUberDis = (TextView) findViewById(R.id.txt_uber_dis);
+        tvUbertime = (TextView) findViewById(R.id.txt_uber_time);
 
 //        Intent intent = null;
 //        try {
@@ -118,32 +130,85 @@ public class CabActivity extends AppCompatActivity {
                 .build();
 
         rideRequestButton.setRideParameters(rideParameters);
-        ServerTokenSession session = new ServerTokenSession(config);
-        rideRequestButton.setSession(session);
-        rideRequestButton.loadRideInformation();
-        final RideRequestButtonCallback callback = new RideRequestButtonCallback() {
-//            https://api.uber.com/v1/estimates/price?start_latitude=37.625732&start_longitude=-122.377807&end_latitude=37.785114&end_longitude=-122.406677&server_token=IzXB2Dt1dRiiFMbAS_GpaZIPZQf5qSpl60VtonRQ
-            @Override
-            public void onRideInformationLoaded() {
-                String priceEstimate = new PriceEstimate().getEstimate();
-                Log.d(TAG,"estimates:::; "+priceEstimate);
-                // react to the displayed estimates
-            }
+        new CabActivity.getConcept().execute();
 
-            @Override
-            public void onError(ApiError apiError) {
-                // API error details: /docs/riders/references/api#section-errors
-            }
-
-            @Override
-            public void onError(Throwable throwable) {
-                // Unexpected error, very likely an IOException
-            }
-        };
-        rideRequestButton.setCallback(callback);
+//        ServerTokenSession session = new ServerTokenSession(config);
+//        rideRequestButton.setSession(session);
+//        rideRequestButton.loadRideInformation();
+//        final RideRequestButtonCallback callback = new RideRequestButtonCallback() {
+////            https://api.uber.com/v1/estimates/price?start_latitude=37.625732&start_longitude=-122.377807&end_latitude=37.785114&end_longitude=-122.406677&server_token=IzXB2Dt1dRiiFMbAS_GpaZIPZQf5qSpl60VtonRQ
+//            @Override
+//            public void onRideInformationLoaded() {
+//                String priceEstimate = new PriceEstimate().getEstimate();
+//                Log.d(TAG,"estimates:::; "+priceEstimate);
+//                // react to the displayed estimates
+//            }
+//
+//            @Override
+//            public void onError(ApiError apiError) {
+//                // API error details: /docs/riders/references/api#section-errors
+//            }
+//
+//            @Override
+//            public void onError(Throwable throwable) {
+//                // Unexpected error, very likely an IOException
+//            }
+//        };
+//        rideRequestButton.setCallback(callback);
 
 
 //        rideRequestButton.
         Log.d(TAG, "rideParams:: " + TravelEntry.pickLang + "    " + TravelEntry.pickLat + "   " + TravelEntry.pickName + "   " + TravelEntry.pickAddr);
     }
+
+    private class getConcept extends AsyncTask<Void, Void, Void> {
+        HttpHandler sh = new HttpHandler();
+        String reqUrl;
+        JSONObject jsonObject;
+        ProgressDialog progressDialog;
+
+        @Override
+        protected void onPreExecute() {
+            progressDialog = new ProgressDialog(CabActivity.this);
+            progressDialog.setTitle("Loading");
+            progressDialog.setMessage("Estimating Ride Cost and Time...");
+            progressDialog.setCancelable(false);
+            progressDialog.show();
+            super.onPreExecute();
+        }
+
+        @Override
+        protected Void doInBackground(Void... params) {
+            reqUrl = "https://api.uber.com/v1/estimates/price?start_latitude=" + TravelEntry.pickLat + "&start_longitude=" + TravelEntry.pickLang + "&end_latitude=" + TravelEntry.dropLat + "&end_longitude=" + TravelEntry.dropLng + "&server_token=IzXB2Dt1dRiiFMbAS_GpaZIPZQf5qSpl60VtonRQ";
+            jsonStr = sh.makeServiceCall(reqUrl);
+            Log.d(TAG, "jsonConcept" + jsonStr);
+            try {
+                jsonObject = new JSONObject(jsonStr);
+                JSONArray price = jsonObject.getJSONArray("prices");
+                JSONObject uberGo = price.getJSONObject(1);
+                Log.d(TAG, "UberGo: " + uberGo);
+                uberDistance = uberGo.getDouble("distance");
+                int high = uberGo.getInt("high_estimate");
+                int low = uberGo.getInt("low_estimate");
+                uberEstimate = (high+low)/2;
+                int duration = uberGo.getInt("duration");
+                uberDuration = (float) duration/60;
+                Log.d(TAG, "dis,est,dur: " + uberDistance + " " + uberEstimate + " " + uberDuration);
+            } catch (JSONException e) {
+                e.printStackTrace();
+            }
+            return null;
+        }
+
+        @Override
+        protected void onPostExecute(Void aVoid) {
+            progressDialog.dismiss();
+            tvUberDis.setText(uberDistance+" Km.");
+            tvUbertime.setText((int)uberDuration+" min.");
+            tvUberCost.setText("Rs. "+uberEstimate);
+            super.onPostExecute(aVoid);
+        }
+    }
+
 }
+
