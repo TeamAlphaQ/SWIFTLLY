@@ -3,6 +3,7 @@ package campusshark.dhruv.swiftly;
 import android.app.Activity;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.AutoCompleteTextView;
 
 import com.uber.sdk.android.core.UberSdk;
 import com.uber.sdk.android.rides.RideParameters;
@@ -20,6 +21,10 @@ public class CabActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_cab);
+
+        AutoCompleteTextView autocompleteView = (AutoCompleteTextView) findViewById(R.id.pickUpLocation);
+        autocompleteView.setAdapter(new PlacesAutoCompleteAdapter(getActivity(), R.layout.autocomplete_list_item));
+
 
         SessionConfiguration config = new SessionConfiguration.Builder().
                 setClientId("iDzPiy2blrRE1_6WOChWOkWJB4xH8mnD")
