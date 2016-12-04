@@ -31,5 +31,26 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="95dp" />
 
+    <mehdi.sakout.fancybuttons.FancyButton
+        android:id="@+id/btn_nearby_places"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp"
+        fancy:fb_borderColor="#FFFFFF"
+        fancy:fb_borderWidth="1dp"
+        fancy:fb_defaultColor="#7ab800"
+        fancy:fb_focusColor="#9bd823"
+        fancy:fb_iconPosition="left"
+        fancy:fb_radius="30dp"
+        fancy:fb_text=" NEARBY PLACES   "
+        fancy:fb_textColor="#FFFFFF"
+        android:layout_marginTop="36dp"
+        android:layout_below="@+id/btn_cabs"
+        android:layout_alignLeft="@+id/btn_cabs"
+        android:layout_alignStart="@+id/btn_cabs" />
+
 
 </RelativeLayout>

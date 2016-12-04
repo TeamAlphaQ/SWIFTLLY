@@ -6,11 +6,14 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
+import org.apache.log4j.chainsaw.Main;
+
 import mehdi.sakout.fancybuttons.FancyButton;
 
 public class MainActivity extends AppCompatActivity {
 
     FancyButton btnCabs;
+    FancyButton btnNearby;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,7 +24,16 @@ public class MainActivity extends AppCompatActivity {
         btnCabs.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i =new Intent(MainActivity.this, TravelEntry.class);
+                Intent i = new Intent(MainActivity.this, TravelEntry.class);
+                startActivity(i);
+            }
+        });
+
+        btnNearby = (FancyButton) findViewById(R.id.btn_nearby_places);
+        btnNearby.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(MainActivity.this, NearbyPlaces.class);
                 startActivity(i);
             }
         });

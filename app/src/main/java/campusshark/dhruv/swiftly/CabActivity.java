@@ -17,6 +17,12 @@ import android.app.SearchManager;
 import android.widget.SearchView;
 import android.widget.SearchView.OnQueryTextListener;
 
+import com.android.volley.AuthFailureError;
+import com.android.volley.Request;
+import com.android.volley.Response;
+import com.android.volley.VolleyError;
+import com.android.volley.toolbox.StringRequest;
+import com.android.volley.toolbox.Volley;
 import com.google.android.gms.common.GooglePlayServicesNotAvailableException;
 import com.google.android.gms.common.GooglePlayServicesRepairableException;
 import com.google.android.gms.common.api.Status;
@@ -39,7 +45,11 @@ import org.json.JSONException;
 import org.json.JSONObject;
 import org.w3c.dom.Text;
 
+import java.net.HttpURLConnection;
+import java.net.URL;
 import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Map;
 
 public class CabActivity extends AppCompatActivity {
 
@@ -54,10 +64,12 @@ public class CabActivity extends AppCompatActivity {
 
     public RelativeLayout pickUp;
     public RelativeLayout drop;
-    public String jsonStr;
+    public String jsonUber;
+    public String jsonOla;
 
     public double uberDistance;
-    public int uberEstimate;
+    public int uberLowEstimate;
+    public int uberhighEstimate;
     public float uberDuration;
 
     @Override
@@ -80,19 +92,6 @@ public class CabActivity extends AppCompatActivity {
         tvUberDis = (TextView) findViewById(R.id.txt_uber_dis);
         tvUbertime = (TextView) findViewById(R.id.txt_uber_time);
 
-//        Intent intent = null;
-//        try {
-//            intent =
-//                    new PlaceAutocomplete.IntentBuilder(PlaceAutocomplete.MODE_FULLSCREEN)
-//                            .build(CabActivity.this);
-//        } catch (GooglePlayServicesRepairableException e) {
-//            // TODO: Handle the error.
-//        } catch (GooglePlayServicesNotAvailableException e) {
-//            // TODO: Handle the error.
-//        }
-//
-//        final Intent finalIntent = intent;
-
         pickUp.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -109,6 +108,7 @@ public class CabActivity extends AppCompatActivity {
             }
         });
         rideRequestButton = (RideRequestButton) findViewById(R.id.btn_uber_ride);
+
 
         SessionConfiguration config = new SessionConfiguration.Builder().
                 setClientId("iDzPiy2blrRE1_6WOChWOkWJB4xH8mnD")
@@ -130,40 +130,84 @@ public class CabActivity extends AppCompatActivity {
                 .build();
 
         rideRequestButton.setRideParameters(rideParameters);
-        new CabActivity.getConcept().execute();
-
-//        ServerTokenSession session = new ServerTokenSession(config);
-//        rideRequestButton.setSession(session);
-//        rideRequestButton.loadRideInformation();
-//        final RideRequestButtonCallback callback = new RideRequestButtonCallback() {
-////            https://api.uber.com/v1/estimates/price?start_latitude=37.625732&start_longitude=-122.377807&end_latitude=37.785114&end_longitude=-122.406677&server_token=IzXB2Dt1dRiiFMbAS_GpaZIPZQf5qSpl60VtonRQ
-//            @Override
-//            public void onRideInformationLoaded() {
-//                String priceEstimate = new PriceEstimate().getEstimate();
-//                Log.d(TAG,"estimates:::; "+priceEstimate);
-//                // react to the displayed estimates
-//            }
-//
-//            @Override
-//            public void onError(ApiError apiError) {
-//                // API error details: /docs/riders/references/api#section-errors
-//            }
-//
-//            @Override
-//            public void onError(Throwable throwable) {
-//                // Unexpected error, very likely an IOException
-//            }
-//        };
-//        rideRequestButton.setCallback(callback);
-
-
-//        rideRequestButton.
+        new CabActivity.getUberConcept().execute();
+        request();
+//        OLA();
         Log.d(TAG, "rideParams:: " + TravelEntry.pickLang + "    " + TravelEntry.pickLat + "   " + TravelEntry.pickName + "   " + TravelEntry.pickAddr);
     }
 
-    private class getConcept extends AsyncTask<Void, Void, Void> {
+    public void OLA()
+    {
+//        String url = "https://devapi.olacabs.com/v1/products?pickup_lat=12.9491416&pickup_lng=77.64298&drop_lat=12.96&drop_lng=77.678&category=prime";
+        String url = "http://sandbox-t.olacabs.com/v1/products?pickup_lat=12.950072&pickup_lng=77.642684";
+        try {
+            URL urlString = new URL(url);
+
+            HttpURLConnection conn = (HttpURLConnection) urlString.openConnection();
+
+            conn.setDoInput(true);
+            conn.setDoOutput(true);
+
+            conn.setRequestProperty("CONTENT_TYPE", "application/json");
+            conn.setRequestProperty("X-APP-TOKEN", "07cb4d02434e41bebc1fc8b3bd3c3121");
+            conn.setRequestMethod("GET");
+            conn.connect();
+            int httpStatus = conn.getResponseCode();
+            Log.d(TAG, "httpStatus " + httpStatus);
+        } catch (Exception e) {
+            Log.d(TAG,"errorInOlaFunction");
+            e.printStackTrace();
+        }
+    }
+
+
+    public void request() {
+        StringRequest request = new StringRequest(
+                Request.Method.POST,
+                "http://IND.ola.gemius.com/api/",
+                new Response.Listener<String>() {
+                    @Override
+                    public void onResponse(String response) {
+                        Log.d(TAG, "onResponse: " + response);
+                    }
+                },
+                new Response.ErrorListener() {
+                    @Override
+                    public void onErrorResponse(VolleyError error) {
+                         Log.d(TAG,"volleyError: "+error);
+                    }
+                }
+        )
+
+
+        {
+            @Override
+            public Map<String, String> getHeaders() throws AuthFailureError {
+                return super.getHeaders();
+            }
+
+            @Override
+            protected Map<String, String> getParams() throws AuthFailureError {
+                Map<String,String> map=new HashMap<>();
+                map.put("country_code","hu");
+                map.put("email","dhruvrathi15@gmail.com");
+                map.put("password","dhruv2601");
+//                map.put("apikey",apiKey);
+//                map.put("url",url);
+                return map;
+            }
+        };
+
+        Volley.newRequestQueue(CabActivity.this).add(request);
+    }
+
+
+
+    private class getUberConcept extends AsyncTask<Void, Void, Void> {
         HttpHandler sh = new HttpHandler();
+        HttpHandler sh1 = new HttpHandler();
         String reqUrl;
+        String reqOlaUrl;
         JSONObject jsonObject;
         ProgressDialog progressDialog;
 
@@ -180,20 +224,24 @@ public class CabActivity extends AppCompatActivity {
         @Override
         protected Void doInBackground(Void... params) {
             reqUrl = "https://api.uber.com/v1/estimates/price?start_latitude=" + TravelEntry.pickLat + "&start_longitude=" + TravelEntry.pickLang + "&end_latitude=" + TravelEntry.dropLat + "&end_longitude=" + TravelEntry.dropLng + "&server_token=IzXB2Dt1dRiiFMbAS_GpaZIPZQf5qSpl60VtonRQ";
-            jsonStr = sh.makeServiceCall(reqUrl);
-            Log.d(TAG, "jsonConcept" + jsonStr);
+            reqOlaUrl = "https://devapi.olacabs.com/v1/products?pickup_lat=12.9491416&pickup_lng=77.64298&category=mini";
+            jsonUber = sh.makeServiceCall(reqUrl);
+//            jsonOla = sh.makeServiceCall(reqOlaUrl);
+            Log.d(TAG, "jsonConcept" + jsonUber);
+//            Log.d(TAG,"jsonOLAAAAConcept: "+jsonOla);
+
             try {
-                jsonObject = new JSONObject(jsonStr);
+                jsonObject = new JSONObject(jsonUber);
                 JSONArray price = jsonObject.getJSONArray("prices");
                 JSONObject uberGo = price.getJSONObject(1);
                 Log.d(TAG, "UberGo: " + uberGo);
                 uberDistance = uberGo.getDouble("distance");
-                int high = uberGo.getInt("high_estimate");
-                int low = uberGo.getInt("low_estimate");
-                uberEstimate = (high+low)/2;
+                uberhighEstimate = uberGo.getInt("high_estimate");
+                uberLowEstimate = uberGo.getInt("low_estimate");
+//                uberEstimate = (high+low)/2;
                 int duration = uberGo.getInt("duration");
-                uberDuration = (float) duration/60;
-                Log.d(TAG, "dis,est,dur: " + uberDistance + " " + uberEstimate + " " + uberDuration);
+                uberDuration = (float) duration / 60;
+//                Log.d(TAG, "dis,est,dur: " + uberDistance + " " + uberEstimate + " " + uberDuration);
             } catch (JSONException e) {
                 e.printStackTrace();
             }
@@ -203,12 +251,11 @@ public class CabActivity extends AppCompatActivity {
         @Override
         protected void onPostExecute(Void aVoid) {
             progressDialog.dismiss();
-            tvUberDis.setText(uberDistance+" Km.");
-            tvUbertime.setText((int)uberDuration+" min.");
-            tvUberCost.setText("Rs. "+uberEstimate);
+            tvUberDis.setText(uberDistance + " Km.");
+            tvUbertime.setText((int) uberDuration + " min.");
+            tvUberCost.setText("Rs. " + uberLowEstimate + " - " + uberhighEstimate);
             super.onPostExecute(aVoid);
         }
     }
-
 }
 
