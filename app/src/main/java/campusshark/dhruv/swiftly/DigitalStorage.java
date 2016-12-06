@@ -1,5 +1,6 @@
 package campusshark.dhruv.swiftly;
 
+import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.CountDownTimer;
@@ -27,7 +28,43 @@ import java.util.List;
 
 public class DigitalStorage extends AppCompatActivity {
 
-    public void signIn(View view){
+    EditText et_uname;
+    EditText et_password;
+
+    public void runQuery(final CircularProgressButton cb){
+
+        cb.setProgress(50);
+
+        ParseQuery<ParseObject> query = new ParseQuery<ParseObject>("DigitalStorage");
+        final String uname = et_uname.getText().toString();
+        final String pass = et_password.getText().toString();
+
+        query.whereEqualTo("userName",uname);
+        query.whereEqualTo("password",pass);
+
+        query.findInBackground(new FindCallback<ParseObject>() {
+            @Override
+            public void done(List<ParseObject> objects, ParseException e) {
+                if(e==null){
+
+                    if(objects.size()>0)
+                    {
+                        cb.setProgress(100);
+                        Intent i = new Intent(DigitalStorage.this,FilesActivity.class);
+                        i.putExtra("userName",uname);
+                        i.putExtra("password",pass);
+                        startActivity(i);
+                    }else{
+                        cb.setProgress(-1);
+                    }
+
+                }else {
+                    cb.setProgress(-1);
+                }
+            }
+        });
+
+
 
     }
 
@@ -38,6 +75,9 @@ public class DigitalStorage extends AppCompatActivity {
 
         getSupportActionBar().hide();
 
+        et_uname = (EditText)findViewById(R.id.editText3);
+        et_password = (EditText)findViewById(R.id.editText4);
+
         final CircularProgressButton circularProgressButton = (CircularProgressButton) findViewById(R.id.cbutton);
         ShimmerTextView shimmerTextView = (ShimmerTextView) findViewById(R.id.shimmer_tv);
 
@@ -45,22 +85,24 @@ public class DigitalStorage extends AppCompatActivity {
         shimmer.start(shimmerTextView);
 
         circularProgressButton.setProgress(0);
+        circularProgressButton.setIndeterminateProgressMode(true);
 
         circularProgressButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 //PARSE QUERY
-                circularProgressButton.setIndeterminateProgressMode(true);
+
                 circularProgressButton.setProgress(50);
                 new CountDownTimer(3000,300) {
                     @Override
                     public void onTick(long l) {
+
                     }
 
                     @Override
                     public void onFinish() {
-                        circularProgressButton.setProgress(100);
                         shimmer.cancel();
+                        runQuery(circularProgressButton);
                     }
                 }.start();
             }

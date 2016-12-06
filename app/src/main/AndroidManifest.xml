@@ -34,7 +34,9 @@
         <activity android:name=".TravelEntry" />
         <activity android:name=".NearbyPlaces" />
         <activity android:name=".ThePlaceList" />
-        <activity android:name=".DigitalStorage"></activity>
+        <activity android:name=".DigitalStorage" />
+        <activity android:name=".FilesActivity" />
+        <activity android:name=".uploadActivity"></activity>
     </application>
 
 </manifest>
