@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="core-android-0.5.3">
+    <ANNOTATIONS>
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.uber.sdk/core-android/0.5.3/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.uber.sdk/core-android/0.5.3/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.uber.sdk/core-android/0.5.3/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.uber.sdk/core-android/0.5.3/c6eddc0ea98147f00520a400ab683b48327eb59a/core-android-0.5.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
