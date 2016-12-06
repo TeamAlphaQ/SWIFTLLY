@@ -11,9 +11,9 @@ public class CardObjectTypeSelected {
     private String tvName;
     private String tvAddress;
     private String tvIsOpen;
-    private int imgType;
+    private String imgType;
 
-    CardObjectTypeSelected(String name,String address, boolean isOpen, int img)
+    CardObjectTypeSelected(String name,String address, boolean isOpen, String img)
     {
         tvName = name;
         tvAddress = address;
@@ -55,11 +55,11 @@ public class CardObjectTypeSelected {
         this.tvIsOpen = tvIsOpen;
     }
 
-    public int getImgType() {
+    public String getImgType() {
         return imgType;
     }
 
-    public void setImgType(int imgType) {
+    public void setImgType(String imgType) {
         this.imgType = imgType;
     }
 }
