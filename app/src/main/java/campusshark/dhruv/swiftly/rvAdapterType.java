@@ -1,11 +1,14 @@
 package campusshark.dhruv.swiftly;
 
+import android.content.Context;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import com.squareup.picasso.Picasso;
 
 import java.lang.reflect.Array;
 import java.util.ArrayList;
@@ -17,6 +20,7 @@ public class rvAdapterType extends RecyclerView
         .Adapter<rvAdapterType
         .CardObjectHolder> {
 
+    private Context context;
     public static final String TAG = "rvadapterType";
     private ArrayList<CardObjectTypeSelected> cardSet;
     private static MyClickListener1 myClickListener;
@@ -62,6 +66,7 @@ public class rvAdapterType extends RecyclerView
         View view = LayoutInflater.from(parent.getContext())
                 .inflate(R.layout.caedview_type_selected, parent, false);
 
+        context = parent.getContext();
         CardObjectHolder cardObjectHolder = new CardObjectHolder(view);
         return cardObjectHolder;
     }
@@ -71,7 +76,14 @@ public class rvAdapterType extends RecyclerView
         holder.name.setText(cardSet.get(position).getTvName());
         holder.addr.setText(cardSet.get(position).getTvAddress());
         holder.isOpen.setText(cardSet.get(position).getTvIsOpen());
-        holder.img.setImageResource(cardSet.get(position).getImgType());
+        if(cardSet.get(position).getImgType()==null) {
+            Picasso.with(context).load(cardSet.get(position).getImgType()).into(holder.img);
+        }
+        else
+        {
+            Picasso.with(context).load("http://www.freeiconspng.com/uploads/customer-service-icon-png-9.png").into(holder.img);
+        }
+//        holder.img.setImageResource(cardSet.get(position).getImgType());
     }
 
     public void addItem(CardObjectTypeSelected dataObj, int index) {

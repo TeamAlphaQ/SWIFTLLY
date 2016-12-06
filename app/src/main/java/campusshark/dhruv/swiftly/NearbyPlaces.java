@@ -117,6 +117,7 @@ public class NearbyPlaces extends AppCompatActivity implements LocationListener 
     @Override
     protected void onResume() {
         super.onResume();
+
         ((MyRecyclerViewAdapter) mAdapter).setOnItemClickListener(new MyRecyclerViewAdapter
                 .MyClickListener() {
             @Override
@@ -134,6 +135,7 @@ public class NearbyPlaces extends AppCompatActivity implements LocationListener 
         for (int index = 0; index < 14; index++) {
             CardObject obj = new CardObject(imageId[index], sourceId[index]); // make a map of images and the service and provide that here
 //            CardObject obj = new CardObject(R.drawable.uberlogo,"UBER");
+            Log.d(TAG,"index:: "+index);
             results.add(index, obj);
         }
         return results;
@@ -143,6 +145,7 @@ public class NearbyPlaces extends AppCompatActivity implements LocationListener 
     public void onLocationChanged(Location location) {
         currentLat = location.getLatitude();
         currentLong = location.getLongitude();
+        url = "https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=" + currentLat + "," + currentLong + "&rankby=distance&type=" + temp + "&keyword=" + temp + "&key=" + APIKEY;
         Log.d(TAG, "location: " + currentLat + "  " + currentLong);
     }
 

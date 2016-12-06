@@ -20,6 +20,8 @@ import com.google.android.gms.location.places.ui.PlaceAutocomplete;
 import com.google.android.gms.maps.model.LatLng;
 import com.uber.sdk.android.rides.RideRequestButton;
 
+import org.apache.log4j.chainsaw.Main;
+
 public class TravelEntry extends AppCompatActivity {
 
     private static final String TAG = "TravelEntry";
@@ -86,6 +88,23 @@ public class TravelEntry extends AppCompatActivity {
             }
         });
 
+        final com.getbase.floatingactionbutton.FloatingActionButton actionA = (com.getbase.floatingactionbutton.FloatingActionButton) findViewById(R.id.action_a);
+        actionA.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(TravelEntry.this, NearbyPlaces.class);
+                startActivity(i);
+            }
+        });
+
+        final com.getbase.floatingactionbutton.FloatingActionButton actionB = (com.getbase.floatingactionbutton.FloatingActionButton) findViewById(R.id.action_a);
+        actionB.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(TravelEntry.this, MainActivity.class);
+                startActivity(i);
+            }
+        });
 
     }
 

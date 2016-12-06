@@ -136,8 +136,7 @@ public class CabActivity extends AppCompatActivity {
         Log.d(TAG, "rideParams:: " + TravelEntry.pickLang + "    " + TravelEntry.pickLat + "   " + TravelEntry.pickName + "   " + TravelEntry.pickAddr);
     }
 
-    public void OLA()
-    {
+    public void OLA() {
 //        String url = "https://devapi.olacabs.com/v1/products?pickup_lat=12.9491416&pickup_lng=77.64298&drop_lat=12.96&drop_lng=77.678&category=prime";
         String url = "http://sandbox-t.olacabs.com/v1/products?pickup_lat=12.950072&pickup_lng=77.642684";
         try {
@@ -155,7 +154,7 @@ public class CabActivity extends AppCompatActivity {
             int httpStatus = conn.getResponseCode();
             Log.d(TAG, "httpStatus " + httpStatus);
         } catch (Exception e) {
-            Log.d(TAG,"errorInOlaFunction");
+            Log.d(TAG, "errorInOlaFunction");
             e.printStackTrace();
         }
     }
@@ -174,7 +173,7 @@ public class CabActivity extends AppCompatActivity {
                 new Response.ErrorListener() {
                     @Override
                     public void onErrorResponse(VolleyError error) {
-                         Log.d(TAG,"volleyError: "+error);
+                        Log.d(TAG, "volleyError: " + error);
                     }
                 }
         )
@@ -188,10 +187,10 @@ public class CabActivity extends AppCompatActivity {
 
             @Override
             protected Map<String, String> getParams() throws AuthFailureError {
-                Map<String,String> map=new HashMap<>();
-                map.put("country_code","hu");
-                map.put("email","dhruvrathi15@gmail.com");
-                map.put("password","dhruv2601");
+                Map<String, String> map = new HashMap<>();
+                map.put("country_code", "hu");
+                map.put("email", "dhruvrathi15@gmail.com");
+                map.put("password", "dhruv2601");
 //                map.put("apikey",apiKey);
 //                map.put("url",url);
                 return map;
@@ -200,7 +199,6 @@ public class CabActivity extends AppCompatActivity {
 
         Volley.newRequestQueue(CabActivity.this).add(request);
     }
-
 
 
     private class getUberConcept extends AsyncTask<Void, Void, Void> {
