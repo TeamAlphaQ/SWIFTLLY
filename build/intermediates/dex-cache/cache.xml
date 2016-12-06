@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-24.2.1_77874523bcb8649495444bf521e640f01d9f29f3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-24.2.1_74a9c67feef48c7eee6bd34fbf69815be91068df\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="c5e6490573cd2cc8018417f60ddd251138b6ed61">
+        <dex dex="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-cardview-v7-24.2.1_7f589a5e017820d651dd1ff391f95a11a9ef604c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\SIDDHANT CHADHA\.gradle\caches\modules-2\files-2.1\log4j\log4j\1.2.17\5af35056b4d257e4b64b9e8069c0746e8b08629f\log4j-1.2.17.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="5af35056b4d257e4b64b9e8069c0746e8b08629f">
+        <dex dex="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\transforms\dex\debug\folders\1000\10\log4j-1.2.17_ab6437866f22efbd0c39991256ef91b8c8e8fcd5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="756f6297eef79784f5e356dcd4f39865028b2bd0">
+        <dex dex="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-10.0.1_559c8ee0d0fd3cede7ea710ca90ad504bae14daa\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\SIDDHANT CHADHA\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.4.0\d85884acf6810a3bbbecb587f239005cbc846dc4\bolts-tasks-1.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\transforms\dex\debug\folders\1000\10\bolts-tasks-1.4.0_93c83fcb5a40944d48835678adf42e81a22fad1e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\SIDDHANT CHADHA\.gradle\caches\modules-2\files-2.1\com.google.oauth-client\google-oauth-client\1.19.0\d473a8962e14a707a3716637e4898bb2dd9643f2\google-oauth-client-1.19.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d473a8962e14a707a3716637e4898bb2dd9643f2">
+        <dex dex="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\transforms\dex\debug\folders\1000\10\google-oauth-client-1.19.0_93479df4376f05972714230919696f6fa5344723\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-24.2.1_782b27c5008168dc4ffa1eceacf09f4c1f5fe0fa\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\SIDDHANT CHADHA\.gradle\caches\modules-2\files-2.1\com.uber.sdk\rides\0.5.2\7b982f0f54dc2daef68a6625bb5de88f4ad6ada8\rides-0.5.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="7b982f0f54dc2daef68a6625bb5de88f4ad6ada8">
+        <dex dex="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\transforms\dex\debug\folders\1000\10\rides-0.5.2_08d1b6b246aee1ead2afd92aeb59077c5c061002\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="44a694d4095be84c2888764b1f7256b385c030ad">
+        <dex dex="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-location-10.0.1_fd21344852656f2bc148058c1258d6756f13ae80\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="25438f55fc6d906a0e72f30b21487541430ede43">
+        <dex dex="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-base-10.0.1_12c64a9262da4c90f4ccb4b0db140cf092d5ef0a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\exploded-aar\com.github.florent37\materialtextfield\1.0.5\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="1178ff79ecace62352b61e7e116112d90116cab3">
+        <dex dex="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.github.florent37-materialtextfield-1.0.5_0d445a6869e2dae8aa96c82d5940dd75dcceb0fd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="27777b3cad3c20b1acab19f6e37fe3e03371bf6e">
+        <dex dex="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-maps-10.0.1_b326490fa94fc0d39f2b76125b8d77d15efa505b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\SIDDHANT CHADHA\.gradle\caches\modules-2\files-2.1\com.parse\parse-android\1.13.0\58a7d54b6a4f28be11f0cecec93097eddf473e6f\parse-android-1.13.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="58a7d54b6a4f28be11f0cecec93097eddf473e6f">
+        <dex dex="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\transforms\dex\debug\folders\1000\10\parse-android-1.13.0_dd2aa8290aa99fb2fdf50c67e1d1d9a160b9cc7a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\exploded-aar\com.github.medyo\fancybuttons\1.8.2\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="936fd700a7501509fec8ac684707b771e369fa62">
+        <dex dex="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.github.medyo-fancybuttons-1.8.2_972fea4e2e0b70e046e685aac224bd2c618f7c99\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="c6e1f361e9d61aece9dac39b77fcc98a337a144d">
+        <dex dex="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-nearby-10.0.1_3d87f5d04e5135bc2c27e993fc74d429de5d44ee\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\SIDDHANT CHADHA\.gradle\caches\modules-2\files-2.1\com.google.http-client\google-http-client\1.19.0\cdca49ad0977c040f603478aa2e16b2775c8fec6\google-http-client-1.19.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="cdca49ad0977c040f603478aa2e16b2775c8fec6">
+        <dex dex="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\transforms\dex\debug\folders\1000\10\google-http-client-1.19.0_11919bc1bb8b87d5f6fab6951d2ba20e5a11a307\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_ffd4d0fc45bcfde322b9fd229821f97042e34e7c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\exploded-aar\com.android.support\design\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
+        <dex dex="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-24.2.1_299ec5a44d0a0f43d6dd3d5b5c7b3f7740e5bc85\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.2.1_10cd953c940accdea77ebb67004f63b8f836c70e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\SIDDHANT CHADHA\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-core\2.1.3\f6c3aed1cdfa21b5c1737c915186ea93a95a58bd\jackson-core-2.1.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="f6c3aed1cdfa21b5c1737c915186ea93a95a58bd">
+        <dex dex="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\transforms\dex\debug\folders\1000\10\jackson-core-2.1.3_c18a78b66b0a245e774f00458d19bcfce9bb1d2f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\SIDDHANT CHADHA\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.6.0\98476622f10715998eacf9240d6b479f12c66143\okio-1.6.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\transforms\dex\debug\folders\1000\10\okio-1.6.0_c82ae71ec322eac5eaac1c69d268077bb807ef57\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\exploded-aar\com.github.dmytrodanylyk.circular-progress-button\library\1.1.3\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="8a6ed980c74ad35b2dfc4e1daf97bfc0eea5d7c9">
+        <dex dex="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.github.dmytrodanylyk.circular-progress-button-library-1.1.3_d4c8d6b4f2a9f9e2ca50b92dbc6588570d3b96d8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_05bfa1389ad72132a56ea7ed9ee77124b6c87170\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\exploded-aar\com.uber.sdk\rides-android\0.5.3\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="5d426747c2c9f153a30b6bd7776790d2c3e87e82">
+        <dex dex="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.uber.sdk-rides-android-0.5.3_558412a26d405b90f5987823adc8bef3d2eda2ee\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
+        <dex dex="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-24.2.1_5c1d2a03a1b9513bf71723f149c74deafe202832\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\SIDDHANT CHADHA\.gradle\caches\modules-2\files-2.1\com.google.http-client\google-http-client-jackson2\1.19.0\81dbf9795d387d5e80e55346582d5f2fb81a42eb\google-http-client-jackson2-1.19.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="81dbf9795d387d5e80e55346582d5f2fb81a42eb">
+        <dex dex="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\transforms\dex\debug\folders\1000\10\google-http-client-jackson2-1.19.0_9df92426653e5d17c7871a452f98766000650115\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="8518647273e33746d2c2d6b9f5b88c5227112339">
+        <dex dex="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_d1a72aad546257cb97c274ff88463115ea7f3ac6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\SIDDHANT CHADHA\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.2.0\f7873a2ebde246a45c2a8d6f3247108b4c88a879\okhttp-3.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="f7873a2ebde246a45c2a8d6f3247108b4c88a879">
+        <dex dex="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-3.2.0_b05eac1031c1116cad7b527de576a4e6a947d721\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_13e6b771c4580644280f9ee42aab3799a7e1942d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\exploded-aar\com.romainpiel.shimmer\library\1.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="605019d3e4be636f5dd74c83d05198994e3a2ce9">
+        <dex dex="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.romainpiel.shimmer-library-1.4.0_bac1a805d2c1720965c1cf3f127128a420f41051\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\SIDDHANT CHADHA\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\1.3.9\40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf\jsr305-1.3.9.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf">
+        <dex dex="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\transforms\dex\debug\folders\1000\10\jsr305-1.3.9_469bcd9bf070aef11af8efa843506b7fd2eed63b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\exploded-aar\com.uber.sdk\core-android\0.5.3\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="40d9be371bbc37ed64c423b31ac34f6ec9c71dd6">
+        <dex dex="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.uber.sdk-core-android-0.5.3_cc8e183b18f70dcb39848ec8c8107672626d2632\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\exploded-aar\com.android.support.constraint\constraint-layout\1.0.0-alpha3\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="650cf8686cd625acfbdd43f8ab33f6f2f057605f">
+        <dex dex="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support.constraint-constraint-layout-1.0.0-alpha3_2d797c50cb6d6099859e56450d5e83e0656b2d12\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="2b4d1574d017529a3e70e07f5f90238605190f35">
+        <dex dex="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_1721d1c6f411bbcce76fae7ad6e8c6955cbad791\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-24.2.1_8539252d9aa97d3f1eba1de2891a32e6447ac269\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\SIDDHANT CHADHA\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\logging-interceptor\3.2.0\a56f28d5b7fab623c6c1d2afa08dd496d873ac21\logging-interceptor-3.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="a56f28d5b7fab623c6c1d2afa08dd496d873ac21">
+        <dex dex="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\transforms\dex\debug\folders\1000\10\logging-interceptor-3.2.0_2a381ac60b061b9886e930c74092f8f7917082c0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\SIDDHANT CHADHA\.gradle\caches\modules-2\files-2.1\com.squareup.moshi\moshi\1.1.0\9c665b797ef9427f6d73572642dcb5f90270f7d3\moshi-1.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="9c665b797ef9427f6d73572642dcb5f90270f7d3">
+        <dex dex="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\transforms\dex\debug\folders\1000\10\moshi-1.1.0_9332e84038f8a387b44c17fb67f99ee7f3e18519\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\SIDDHANT CHADHA\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\retrofit\2.0.2\43eeae0b9fb087bb3194ba59ab63a38a32fbf3e\retrofit-2.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="043eeae0b9fb087bb3194ba59ab63a38a32fbf3e">
+        <dex dex="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\transforms\dex\debug\folders\1000\10\retrofit-2.0.2_5e700f0f4c9768385740ba13a6a5304ad43b6058\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="6addaba208e21c6da776d0ca75b6b23a6ccd5499">
+        <dex dex="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tasks-10.0.1_e2668ede36d861923f342e6c514947f188b669a3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\SIDDHANT CHADHA\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\converter-moshi\2.0.2\f956770d1309927879550cdfa0144b63ac891654\converter-moshi-2.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="f956770d1309927879550cdfa0144b63ac891654">
+        <dex dex="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\transforms\dex\debug\folders\1000\10\converter-moshi-2.0.2_6b73ec316a99c59c7ec1eb65dff9ad8dbb38da90\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.0-alpha3\constraint-layout-solver-1.0.0-alpha3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="977d57354ef7ef4faa604b802d4907728e0db889">
+        <dex dex="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\transforms\dex\debug\folders\1000\10\constraint-layout-solver-1.0.0-alpha3_ae741bc7926a1ef1b025a4318c8b13977d8ccf0a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.2.1_3793800ef813c880ca89c33f69c417457e85a05c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-24.2.1_7d1a82d20a0e5d12997ee7f339ff5219cd287d3c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.2.1_bd375a475ab53dd8c478eda23e799180553abb7b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\SIDDHANT CHADHA\.gradle\caches\modules-2\files-2.1\org.slf4j\slf4j-log4j12\1.7.5\6edffc576ce104ec769d954618764f39f0f0f10d\slf4j-log4j12-1.7.5.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="6edffc576ce104ec769d954618764f39f0f0f10d">
+        <dex dex="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\transforms\dex\debug\folders\1000\10\slf4j-log4j12-1.7.5_8a610a7f00934c298fe7d00842f9c6b81090bae8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_81766d1f64d915c6732ba1f319a4d797bc98dac6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.2.1_8022e9b6aa19f73f11e2282369555a18c68f921f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_1770c3842d0d89a155eb77cbb30217f67a97c454\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-places\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="f3e51e9c5233b8897f61e08a6a27bc36283c2724">
+        <dex dex="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-places-10.0.1_cdbbcc8c2573d7914a0efc4a519cb426af529089\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.2.1_0612257f996cc8c6a6898290a46b20d91e7849a1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\SIDDHANT CHADHA\.gradle\caches\modules-2\files-2.1\org.slf4j\slf4j-api\1.7.5\6b262da268f8ad9eff941b25503a9198f0a0ac93\slf4j-api-1.7.5.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="6b262da268f8ad9eff941b25503a9198f0a0ac93">
+        <dex dex="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\transforms\dex\debug\folders\1000\10\slf4j-api-1.7.5_9ce8f0eb8c3956e7aa5e6dd72c05fc2688a48da1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\exploded-aar\com.android.volley\volley\1.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="2cd4b982617e544728de0782d718a58ce1b06e3f">
+        <dex dex="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.volley-volley-1.0.0_2aa2292102d0296cc43e8a398bc76cc2f8564300\classes.dex" />
+    </item>
+
+</items>

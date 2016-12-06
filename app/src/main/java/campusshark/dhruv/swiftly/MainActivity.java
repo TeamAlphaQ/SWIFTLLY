@@ -5,7 +5,10 @@ import android.graphics.Color;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
+
+import com.parse.ParseGeoPoint;
 
 import com.getbase.floatingactionbutton.FloatingActionButton;
 import com.wangjie.androidbucket.utils.ABTextUtil;
@@ -25,10 +28,15 @@ import java.util.List;
 
 import mehdi.sakout.fancybuttons.FancyButton;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity{
 
     FancyButton btnCabs;
     FancyButton btnNearby;
+
+    public void buttoncode (View view){
+        Intent i = new Intent(MainActivity.this,DigitalStorage.class);
+        startActivity(i);
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -49,6 +57,15 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(MainActivity.this, NearbyPlaces.class);
+                startActivity(i);
+            }
+        });
+
+        Button b = (Button) findViewById(R.id.button4);
+        b.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(MainActivity.this, DigitalStorage.class);
                 startActivity(i);
             }
         });
