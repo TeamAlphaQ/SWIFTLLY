@@ -2,481 +2,571 @@
 <items version="2" >
 
     <item
-        is-multidex="true"
-        jar="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
+        is-multidex="false"
+        jar="/home/dhruv/Desktop/SWIFTLY/app/build/intermediates/exploded-aar/com.getbase/floatingactionbutton/1.10.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
-        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
-        <dex dex="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-24.2.1_77874523bcb8649495444bf521e640f01d9f29f3\classes.dex" />
+        sha1="f40cf334cdc8b098b74312e21c7741c6eefbeb0e">
+        <dex dex="/home/dhruv/Desktop/SWIFTLY/app/build/intermediates/pre-dexed/debug/com.getbase-floatingactionbutton-1.10.1_b037a16f2439d7878ad87bad5abb72cccb99296a.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
-        <dex dex="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-24.2.1_74a9c67feef48c7eee6bd34fbf69815be91068df\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="c5e6490573cd2cc8018417f60ddd251138b6ed61">
-        <dex dex="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-cardview-v7-24.2.1_7f589a5e017820d651dd1ff391f95a11a9ef604c\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\SIDDHANT CHADHA\.gradle\caches\modules-2\files-2.1\log4j\log4j\1.2.17\5af35056b4d257e4b64b9e8069c0746e8b08629f\log4j-1.2.17.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="5af35056b4d257e4b64b9e8069c0746e8b08629f">
-        <dex dex="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\transforms\dex\debug\folders\1000\10\log4j-1.2.17_ab6437866f22efbd0c39991256ef91b8c8e8fcd5\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\10.0.1\jars\classes.jar"
+        is-multidex="false"
+        jar="/home/dhruv/Desktop/SWIFTLY/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
         sha1="756f6297eef79784f5e356dcd4f39865028b2bd0">
-        <dex dex="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-10.0.1_559c8ee0d0fd3cede7ea710ca90ad504bae14daa\classes.dex" />
+        <dex dex="/home/dhruv/Desktop/SWIFTLY/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-basement-10.0.1_180890b145967426df23cb93b131a679d1ff4723.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\SIDDHANT CHADHA\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.4.0\d85884acf6810a3bbbecb587f239005cbc846dc4\bolts-tasks-1.4.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
-        <dex dex="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\transforms\dex\debug\folders\1000\10\bolts-tasks-1.4.0_93c83fcb5a40944d48835678adf42e81a22fad1e\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\SIDDHANT CHADHA\.gradle\caches\modules-2\files-2.1\com.google.oauth-client\google-oauth-client\1.19.0\d473a8962e14a707a3716637e4898bb2dd9643f2\google-oauth-client-1.19.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="d473a8962e14a707a3716637e4898bb2dd9643f2">
-        <dex dex="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\transforms\dex\debug\folders\1000\10\google-oauth-client-1.19.0_93479df4376f05972714230919696f6fa5344723\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
-        <dex dex="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-24.2.1_782b27c5008168dc4ffa1eceacf09f4c1f5fe0fa\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\SIDDHANT CHADHA\.gradle\caches\modules-2\files-2.1\com.uber.sdk\rides\0.5.2\7b982f0f54dc2daef68a6625bb5de88f4ad6ada8\rides-0.5.2.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="7b982f0f54dc2daef68a6625bb5de88f4ad6ada8">
-        <dex dex="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\transforms\dex\debug\folders\1000\10\rides-0.5.2_08d1b6b246aee1ead2afd92aeb59077c5c061002\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="44a694d4095be84c2888764b1f7256b385c030ad">
-        <dex dex="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-location-10.0.1_fd21344852656f2bc148058c1258d6756f13ae80\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="25438f55fc6d906a0e72f30b21487541430ede43">
-        <dex dex="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-base-10.0.1_12c64a9262da4c90f4ccb4b0db140cf092d5ef0a\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\exploded-aar\com.github.florent37\materialtextfield\1.0.5\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="1178ff79ecace62352b61e7e116112d90116cab3">
-        <dex dex="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.github.florent37-materialtextfield-1.0.5_0d445a6869e2dae8aa96c82d5940dd75dcceb0fd\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="27777b3cad3c20b1acab19f6e37fe3e03371bf6e">
-        <dex dex="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-maps-10.0.1_b326490fa94fc0d39f2b76125b8d77d15efa505b\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\SIDDHANT CHADHA\.gradle\caches\modules-2\files-2.1\com.parse\parse-android\1.13.0\58a7d54b6a4f28be11f0cecec93097eddf473e6f\parse-android-1.13.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="58a7d54b6a4f28be11f0cecec93097eddf473e6f">
-        <dex dex="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\transforms\dex\debug\folders\1000\10\parse-android-1.13.0_dd2aa8290aa99fb2fdf50c67e1d1d9a160b9cc7a\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\exploded-aar\com.github.medyo\fancybuttons\1.8.2\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="936fd700a7501509fec8ac684707b771e369fa62">
-        <dex dex="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.github.medyo-fancybuttons-1.8.2_972fea4e2e0b70e046e685aac224bd2c618f7c99\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="c6e1f361e9d61aece9dac39b77fcc98a337a144d">
-        <dex dex="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-nearby-10.0.1_3d87f5d04e5135bc2c27e993fc74d429de5d44ee\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\SIDDHANT CHADHA\.gradle\caches\modules-2\files-2.1\com.google.http-client\google-http-client\1.19.0\cdca49ad0977c040f603478aa2e16b2775c8fec6\google-http-client-1.19.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="cdca49ad0977c040f603478aa2e16b2775c8fec6">
-        <dex dex="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\transforms\dex\debug\folders\1000\10\google-http-client-1.19.0_11919bc1bb8b87d5f6fab6951d2ba20e5a11a307\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
-        <dex dex="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_ffd4d0fc45bcfde322b9fd229821f97042e34e7c\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\exploded-aar\com.android.support\design\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
-        <dex dex="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-24.2.1_299ec5a44d0a0f43d6dd3d5b5c7b3f7740e5bc85\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
-        <dex dex="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.2.1_10cd953c940accdea77ebb67004f63b8f836c70e\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\SIDDHANT CHADHA\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-core\2.1.3\f6c3aed1cdfa21b5c1737c915186ea93a95a58bd\jackson-core-2.1.3.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="f6c3aed1cdfa21b5c1737c915186ea93a95a58bd">
-        <dex dex="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\transforms\dex\debug\folders\1000\10\jackson-core-2.1.3_c18a78b66b0a245e774f00458d19bcfce9bb1d2f\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\SIDDHANT CHADHA\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.6.0\98476622f10715998eacf9240d6b479f12c66143\okio-1.6.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="98476622f10715998eacf9240d6b479f12c66143">
-        <dex dex="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\transforms\dex\debug\folders\1000\10\okio-1.6.0_c82ae71ec322eac5eaac1c69d268077bb807ef57\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\exploded-aar\com.github.dmytrodanylyk.circular-progress-button\library\1.1.3\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="8a6ed980c74ad35b2dfc4e1daf97bfc0eea5d7c9">
-        <dex dex="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.github.dmytrodanylyk.circular-progress-button-library-1.1.3_d4c8d6b4f2a9f9e2ca50b92dbc6588570d3b96d8\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
-        <dex dex="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_05bfa1389ad72132a56ea7ed9ee77124b6c87170\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\exploded-aar\com.uber.sdk\rides-android\0.5.3\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="5d426747c2c9f153a30b6bd7776790d2c3e87e82">
-        <dex dex="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.uber.sdk-rides-android-0.5.3_558412a26d405b90f5987823adc8bef3d2eda2ee\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
-        <dex dex="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-24.2.1_5c1d2a03a1b9513bf71723f149c74deafe202832\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\SIDDHANT CHADHA\.gradle\caches\modules-2\files-2.1\com.google.http-client\google-http-client-jackson2\1.19.0\81dbf9795d387d5e80e55346582d5f2fb81a42eb\google-http-client-jackson2-1.19.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="81dbf9795d387d5e80e55346582d5f2fb81a42eb">
-        <dex dex="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\transforms\dex\debug\folders\1000\10\google-http-client-jackson2-1.19.0_9df92426653e5d17c7871a452f98766000650115\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="8518647273e33746d2c2d6b9f5b88c5227112339">
-        <dex dex="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_d1a72aad546257cb97c274ff88463115ea7f3ac6\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\SIDDHANT CHADHA\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.2.0\f7873a2ebde246a45c2a8d6f3247108b4c88a879\okhttp-3.2.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="f7873a2ebde246a45c2a8d6f3247108b4c88a879">
-        <dex dex="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-3.2.0_b05eac1031c1116cad7b527de576a4e6a947d721\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="867dad63c33388ff8c7644b236579355036d075f">
-        <dex dex="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_13e6b771c4580644280f9ee42aab3799a7e1942d\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\exploded-aar\com.romainpiel.shimmer\library\1.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="605019d3e4be636f5dd74c83d05198994e3a2ce9">
-        <dex dex="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.romainpiel.shimmer-library-1.4.0_bac1a805d2c1720965c1cf3f127128a420f41051\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\SIDDHANT CHADHA\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\1.3.9\40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf\jsr305-1.3.9.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf">
-        <dex dex="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\transforms\dex\debug\folders\1000\10\jsr305-1.3.9_469bcd9bf070aef11af8efa843506b7fd2eed63b\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\exploded-aar\com.uber.sdk\core-android\0.5.3\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="40d9be371bbc37ed64c423b31ac34f6ec9c71dd6">
-        <dex dex="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.uber.sdk-core-android-0.5.3_cc8e183b18f70dcb39848ec8c8107672626d2632\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\exploded-aar\com.android.support.constraint\constraint-layout\1.0.0-alpha3\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="650cf8686cd625acfbdd43f8ab33f6f2f057605f">
-        <dex dex="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support.constraint-constraint-layout-1.0.0-alpha3_2d797c50cb6d6099859e56450d5e83e0656b2d12\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="2b4d1574d017529a3e70e07f5f90238605190f35">
-        <dex dex="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_1721d1c6f411bbcce76fae7ad6e8c6955cbad791\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
-        <dex dex="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-24.2.1_8539252d9aa97d3f1eba1de2891a32e6447ac269\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\SIDDHANT CHADHA\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\logging-interceptor\3.2.0\a56f28d5b7fab623c6c1d2afa08dd496d873ac21\logging-interceptor-3.2.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="a56f28d5b7fab623c6c1d2afa08dd496d873ac21">
-        <dex dex="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\transforms\dex\debug\folders\1000\10\logging-interceptor-3.2.0_2a381ac60b061b9886e930c74092f8f7917082c0\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\SIDDHANT CHADHA\.gradle\caches\modules-2\files-2.1\com.squareup.moshi\moshi\1.1.0\9c665b797ef9427f6d73572642dcb5f90270f7d3\moshi-1.1.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="9c665b797ef9427f6d73572642dcb5f90270f7d3">
-        <dex dex="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\transforms\dex\debug\folders\1000\10\moshi-1.1.0_9332e84038f8a387b44c17fb67f99ee7f3e18519\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\SIDDHANT CHADHA\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\retrofit\2.0.2\43eeae0b9fb087bb3194ba59ab63a38a32fbf3e\retrofit-2.0.2.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="043eeae0b9fb087bb3194ba59ab63a38a32fbf3e">
-        <dex dex="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\transforms\dex\debug\folders\1000\10\retrofit-2.0.2_5e700f0f4c9768385740ba13a6a5304ad43b6058\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="6addaba208e21c6da776d0ca75b6b23a6ccd5499">
-        <dex dex="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tasks-10.0.1_e2668ede36d861923f342e6c514947f188b669a3\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\SIDDHANT CHADHA\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\converter-moshi\2.0.2\f956770d1309927879550cdfa0144b63ac891654\converter-moshi-2.0.2.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="f956770d1309927879550cdfa0144b63ac891654">
-        <dex dex="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\transforms\dex\debug\folders\1000\10\converter-moshi-2.0.2_6b73ec316a99c59c7ec1eb65dff9ad8dbb38da90\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Android\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.0-alpha3\constraint-layout-solver-1.0.0-alpha3.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="977d57354ef7ef4faa604b802d4907728e0db889">
-        <dex dex="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\transforms\dex\debug\folders\1000\10\constraint-layout-solver-1.0.0-alpha3_ae741bc7926a1ef1b025a4318c8b13977d8ccf0a\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
-        <dex dex="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.2.1_3793800ef813c880ca89c33f69c417457e85a05c\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
-        <dex dex="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-24.2.1_7d1a82d20a0e5d12997ee7f339ff5219cd287d3c\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
-        <dex dex="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.2.1_bd375a475ab53dd8c478eda23e799180553abb7b\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\SIDDHANT CHADHA\.gradle\caches\modules-2\files-2.1\org.slf4j\slf4j-log4j12\1.7.5\6edffc576ce104ec769d954618764f39f0f0f10d\slf4j-log4j12-1.7.5.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="6edffc576ce104ec769d954618764f39f0f0f10d">
-        <dex dex="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\transforms\dex\debug\folders\1000\10\slf4j-log4j12-1.7.5_8a610a7f00934c298fe7d00842f9c6b81090bae8\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
-        <dex dex="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_81766d1f64d915c6732ba1f319a4d797bc98dac6\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
+        is-multidex="false"
+        jar="/home/dhruv/Desktop/SWIFTLY/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
         sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.2.1_8022e9b6aa19f73f11e2282369555a18c68f921f\classes.dex" />
+        <dex dex="/home/dhruv/Desktop/SWIFTLY/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-24.2.1_061385beb4ff6ba92039a0812a783bae513c868c.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        is-multidex="false"
+        jar="/home/dhruv/Desktop/SWIFTLY/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="/home/dhruv/Desktop/SWIFTLY/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_955b983021850bbc2ee5734aa1f72473919d56b6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/media/dhruv/OS/Users/DHRUV/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/logging-interceptor/3.2.0/a56f28d5b7fab623c6c1d2afa08dd496d873ac21/logging-interceptor-3.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="a56f28d5b7fab623c6c1d2afa08dd496d873ac21">
+        <dex dex="/home/dhruv/Desktop/SWIFTLY/app/build/intermediates/pre-dexed/debug/logging-interceptor-3.2.0_76c642c515e7353c7e7a4a2b37fe2156b1d8edd3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/dhruv/Desktop/SWIFTLY/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="/home/dhruv/Desktop/SWIFTLY/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_1e298a3889829eb0c6e2da9c2616c3a1fba746fa.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/dhruv/Desktop/SWIFTLY/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="746471898c8055e8720666926a2836a97ae64da6">
+        <dex dex="/home/dhruv/Desktop/SWIFTLY/app/build/intermediates/pre-dexed/debug/instant-run-bootstrap_cf5ca8fdef36b59c9603eb7fdd5de70412d17c87.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/dhruv/Desktop/SWIFTLY/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="6addaba208e21c6da776d0ca75b6b23a6ccd5499">
+        <dex dex="/home/dhruv/Desktop/SWIFTLY/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-tasks-10.0.1_89bd744bf41e563e98dd751786594c7a6f9815f4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/dhruv/Desktop/SWIFTLY/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="c6e1f361e9d61aece9dac39b77fcc98a337a144d">
+        <dex dex="/home/dhruv/Desktop/SWIFTLY/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-nearby-10.0.1_57e5932c8272ed464444b58de63ca093b3bc3efd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/dhruv/Desktop/SWIFTLY/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="/home/dhruv/Desktop/SWIFTLY/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-24.2.1_54a00b519b04b0e096b065ea155c15ca2d108ab1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/dhruv/Desktop/SWIFTLY/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
         sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
-        <dex dex="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_1770c3842d0d89a155eb77cbb30217f67a97c454\classes.dex" />
+        <dex dex="/home/dhruv/Desktop/SWIFTLY/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_28c8e3c02eea79d0848baa45233623121c368f5d.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-places\10.0.1\jars\classes.jar"
+        is-multidex="false"
+        jar="/media/dhruv/OS/Users/DHRUV/.gradle/caches/modules-2/files-2.1/com.google.http-client/google-http-client/1.19.0/cdca49ad0977c040f603478aa2e16b2775c8fec6/google-http-client-1.19.0.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
-        sha1="f3e51e9c5233b8897f61e08a6a27bc36283c2724">
-        <dex dex="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-places-10.0.1_cdbbcc8c2573d7914a0efc4a519cb426af529089\classes.dex" />
+        sha1="cdca49ad0977c040f603478aa2e16b2775c8fec6">
+        <dex dex="/home/dhruv/Desktop/SWIFTLY/app/build/intermediates/pre-dexed/debug/google-http-client-1.19.0_4cfe81c9afb17f467a05729fbf628f6519bd5c9c.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
+        is-multidex="false"
+        jar="/home/dhruv/Desktop/SWIFTLY/app/build/intermediates/exploded-aar/com.github.dmytrodanylyk.circular-progress-button/library/1.1.3/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="8a6ed980c74ad35b2dfc4e1daf97bfc0eea5d7c9">
+        <dex dex="/home/dhruv/Desktop/SWIFTLY/app/build/intermediates/pre-dexed/debug/com.github.dmytrodanylyk.circular-progress-button-library-1.1.3_5ba613dc04677fe4abceee0109badf1dc01e0d07.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/media/dhruv/OS/Users/DHRUV/.gradle/caches/modules-2/files-2.1/com.squareup.moshi/moshi/1.1.0/9c665b797ef9427f6d73572642dcb5f90270f7d3/moshi-1.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="9c665b797ef9427f6d73572642dcb5f90270f7d3">
+        <dex dex="/home/dhruv/Desktop/SWIFTLY/app/build/intermediates/pre-dexed/debug/moshi-1.1.0_e9099aebcde4ac427ddf779892bb7d967a9b38b0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/dhruv/Android/Sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.0-alpha3/constraint-layout-solver-1.0.0-alpha3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="977d57354ef7ef4faa604b802d4907728e0db889">
+        <dex dex="/home/dhruv/Desktop/SWIFTLY/app/build/intermediates/pre-dexed/debug/constraint-layout-solver-1.0.0-alpha3_9eb5238e1ba78290c7b2d07b4935fbcc00453fea.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/media/dhruv/OS/Users/DHRUV/.gradle/caches/modules-2/files-2.1/com.google.http-client/google-http-client-jackson2/1.19.0/81dbf9795d387d5e80e55346582d5f2fb81a42eb/google-http-client-jackson2-1.19.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="81dbf9795d387d5e80e55346582d5f2fb81a42eb">
+        <dex dex="/home/dhruv/Desktop/SWIFTLY/app/build/intermediates/pre-dexed/debug/google-http-client-jackson2-1.19.0_a3d9b7bf8a07569f4d87648ef4620307d8379801.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/media/dhruv/OS/Users/DHRUV/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.6.0/98476622f10715998eacf9240d6b479f12c66143/okio-1.6.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="/home/dhruv/Desktop/SWIFTLY/app/build/intermediates/pre-dexed/debug/okio-1.6.0_f59760990a7248e742971c81564e1f11906fe489.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/dhruv/Desktop/SWIFTLY/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="/home/dhruv/Desktop/SWIFTLY/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-24.2.1_360a77cd901fe089de9403b20f32c8e442a84c78.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/dhruv/Desktop/SWIFTLY/app/build/intermediates/exploded-aar/com.github.wangjiegulu/ShadowViewHelper/1.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="82eb31ad68fa20921374c7178af932a6366cc232">
+        <dex dex="/home/dhruv/Desktop/SWIFTLY/app/build/intermediates/pre-dexed/debug/com.github.wangjiegulu-ShadowViewHelper-1.0.1_99e9ad37b2e4e04a8bf306195db24a39a5fd9291.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/media/dhruv/OS/Users/DHRUV/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="/home/dhruv/Desktop/SWIFTLY/app/build/intermediates/pre-dexed/debug/library-2.4.0_51b7f6e46eb2198eff924b5d22ec3bdb88b7b398.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/dhruv/Desktop/SWIFTLY/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="/home/dhruv/Desktop/SWIFTLY/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-24.2.1_c58b0caf5322717ab7c2a46ff8b54d0f53dc3486.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/dhruv/Desktop/SWIFTLY/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="/home/dhruv/Desktop/SWIFTLY/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_55cad4c464418bebc0ec9ec3fee7ece97521dbc1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/dhruv/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.1/support-annotations-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="/home/dhruv/Desktop/SWIFTLY/app/build/intermediates/pre-dexed/debug/support-annotations-24.2.1_722ccab7b83488acefd037f5f6e59c41f7de99ac.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/dhruv/Desktop/SWIFTLY/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="/home/dhruv/Desktop/SWIFTLY/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_f0febb9462e707ff8937fbad032ef3b0de68393e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/dhruv/Desktop/SWIFTLY/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="/home/dhruv/Desktop/SWIFTLY/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-24.2.1_dc6d266ef293ce68b977dc7a6f9f522fd86a4069.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/dhruv/Desktop/SWIFTLY/app/build/intermediates/exploded-aar/com.melnykov/floatingactionbutton/1.3.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="8c6ebb7d087d1a30bf84356bd2aecf85309fc024">
+        <dex dex="/home/dhruv/Desktop/SWIFTLY/app/build/intermediates/pre-dexed/debug/com.melnykov-floatingactionbutton-1.3.0_d0c115d28f6f6d7b9840d786f24995621b6cab90.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/dhruv/Desktop/SWIFTLY/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
         sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
-        <dex dex="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.2.1_0612257f996cc8c6a6898290a46b20d91e7849a1\classes.dex" />
+        <dex dex="/home/dhruv/Desktop/SWIFTLY/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-24.2.1_e2f8d9131ad0a660e44fd152aea731486e48c27c.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\SIDDHANT CHADHA\.gradle\caches\modules-2\files-2.1\org.slf4j\slf4j-api\1.7.5\6b262da268f8ad9eff941b25503a9198f0a0ac93\slf4j-api-1.7.5.jar"
+        is-multidex="false"
+        jar="/media/dhruv/OS/Users/DHRUV/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-log4j12/1.7.5/6edffc576ce104ec769d954618764f39f0f0f10d/slf4j-log4j12-1.7.5.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
-        sha1="6b262da268f8ad9eff941b25503a9198f0a0ac93">
-        <dex dex="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\transforms\dex\debug\folders\1000\10\slf4j-api-1.7.5_9ce8f0eb8c3956e7aa5e6dd72c05fc2688a48da1\classes.dex" />
+        sha1="6edffc576ce104ec769d954618764f39f0f0f10d">
+        <dex dex="/home/dhruv/Desktop/SWIFTLY/app/build/intermediates/pre-dexed/debug/slf4j-log4j12-1.7.5_8e14e5d5b0be1ff065a250bb9f0736a619ab954d.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\exploded-aar\com.android.volley\volley\1.0.0\jars\classes.jar"
+        is-multidex="false"
+        jar="/media/dhruv/OS/Users/DHRUV/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/home/dhruv/Desktop/SWIFTLY/app/build/intermediates/pre-dexed/debug/picasso-2.5.2_b68d7a60450c1dd26a23781f207385a6a5851579.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/dhruv/Desktop/SWIFTLY/app/build/intermediates/exploded-aar/com.github.wangjiegulu/RapidFloatingActionButton/1.0.3/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="7ace574bd540f619e04e8217be64111fdf1f2a67">
+        <dex dex="/home/dhruv/Desktop/SWIFTLY/app/build/intermediates/pre-dexed/debug/com.github.wangjiegulu-RapidFloatingActionButton-1.0.3_0c6d8b098bf13e856ae3345be8d5fd968895897c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/media/dhruv/OS/Users/DHRUV/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/1.3.9/40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf/jsr305-1.3.9.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf">
+        <dex dex="/home/dhruv/Desktop/SWIFTLY/app/build/intermediates/pre-dexed/debug/jsr305-1.3.9_4cb1f2ec7192cda434fd9ff0f635c63cc09e17c3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/media/dhruv/OS/Users/DHRUV/.gradle/caches/modules-2/files-2.1/com.parse/parse-android/1.13.0/58a7d54b6a4f28be11f0cecec93097eddf473e6f/parse-android-1.13.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="58a7d54b6a4f28be11f0cecec93097eddf473e6f">
+        <dex dex="/home/dhruv/Desktop/SWIFTLY/app/build/intermediates/pre-dexed/debug/parse-android-1.13.0_4b57b9c0da7f572b55f5f2a86b4e8f1041b62f14.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/dhruv/Desktop/SWIFTLY/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="44a694d4095be84c2888764b1f7256b385c030ad">
+        <dex dex="/home/dhruv/Desktop/SWIFTLY/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-location-10.0.1_ce5a7913687d80f8e0e1f8c243fee0999c10b97a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/dhruv/Desktop/SWIFTLY/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
+        <dex dex="/home/dhruv/Desktop/SWIFTLY/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-24.2.1_0b36c65d7f80422062f04d1336cae1bb2fb5dd36.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/media/dhruv/OS/Users/DHRUV/.gradle/caches/modules-2/files-2.1/log4j/log4j/1.2.17/5af35056b4d257e4b64b9e8069c0746e8b08629f/log4j-1.2.17.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="5af35056b4d257e4b64b9e8069c0746e8b08629f">
+        <dex dex="/home/dhruv/Desktop/SWIFTLY/app/build/intermediates/pre-dexed/debug/log4j-1.2.17_a3f27687b1758ed01d2033a45e7093bfac7b637b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/media/dhruv/OS/Users/DHRUV/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.1.3/f6c3aed1cdfa21b5c1737c915186ea93a95a58bd/jackson-core-2.1.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="f6c3aed1cdfa21b5c1737c915186ea93a95a58bd">
+        <dex dex="/home/dhruv/Desktop/SWIFTLY/app/build/intermediates/pre-dexed/debug/jackson-core-2.1.3_7b0ae27741a75e3a6d28412c418fc1ca5cf148e7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/media/dhruv/OS/Users/DHRUV/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.2.0/f7873a2ebde246a45c2a8d6f3247108b4c88a879/okhttp-3.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="f7873a2ebde246a45c2a8d6f3247108b4c88a879">
+        <dex dex="/home/dhruv/Desktop/SWIFTLY/app/build/intermediates/pre-dexed/debug/okhttp-3.2.0_40ba674c9327fcf8d30245b56500507ec4721ed8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/dhruv/Desktop/SWIFTLY/app/build/intermediates/exploded-aar/io.saeid/support-animator/0.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="47170e8fc0908f66736f9e27978c77a0bda2c2af">
+        <dex dex="/home/dhruv/Desktop/SWIFTLY/app/build/intermediates/pre-dexed/debug/io.saeid-support-animator-0.2.1_0eb71eaa4b3e8d8cf57c69f9f1103312320c9999.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/dhruv/Desktop/SWIFTLY/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-places/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="f3e51e9c5233b8897f61e08a6a27bc36283c2724">
+        <dex dex="/home/dhruv/Desktop/SWIFTLY/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-places-10.0.1_c5271458c53639959c723a55c165fc603455a9ec.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/dhruv/Desktop/SWIFTLY/app/build/intermediates/exploded-aar/com.android.volley/volley/1.0.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
         sha1="2cd4b982617e544728de0782d718a58ce1b06e3f">
-        <dex dex="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.volley-volley-1.0.0_2aa2292102d0296cc43e8a398bc76cc2f8564300\classes.dex" />
+        <dex dex="/home/dhruv/Desktop/SWIFTLY/app/build/intermediates/pre-dexed/debug/com.android.volley-volley-1.0.0_efd94a61372249b0a3395e60a850ecef49cf90ad.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/media/dhruv/OS/Users/DHRUV/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-moshi/2.0.2/f956770d1309927879550cdfa0144b63ac891654/converter-moshi-2.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="f956770d1309927879550cdfa0144b63ac891654">
+        <dex dex="/home/dhruv/Desktop/SWIFTLY/app/build/intermediates/pre-dexed/debug/converter-moshi-2.0.2_650af80cf97a2bbdff8465f20922f5ed44ef147b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/dhruv/Desktop/SWIFTLY/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="573cd158b0cbc84f2188ebbd00fa34de11e5e70f">
+        <dex dex="/home/dhruv/Desktop/SWIFTLY/app/build/intermediates/pre-dexed/debug/instant-run_9126f02573fa3cd22f98cfc6bf026e4051ec0634.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/media/dhruv/OS/Users/DHRUV/.gradle/caches/modules-2/files-2.1/com.google.oauth-client/google-oauth-client/1.19.0/d473a8962e14a707a3716637e4898bb2dd9643f2/google-oauth-client-1.19.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d473a8962e14a707a3716637e4898bb2dd9643f2">
+        <dex dex="/home/dhruv/Desktop/SWIFTLY/app/build/intermediates/pre-dexed/debug/google-oauth-client-1.19.0_37a30c8ee07ce5434113c4b395a0b66985128d9c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/media/dhruv/OS/Users/DHRUV/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.0.2/43eeae0b9fb087bb3194ba59ab63a38a32fbf3e/retrofit-2.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="043eeae0b9fb087bb3194ba59ab63a38a32fbf3e">
+        <dex dex="/home/dhruv/Desktop/SWIFTLY/app/build/intermediates/pre-dexed/debug/retrofit-2.0.2_9e4f49c8295da1ad02386e43d12c5386a9d3fe8f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/media/dhruv/OS/Users/DHRUV/.gradle/caches/modules-2/files-2.1/com.uber.sdk/rides/0.5.2/7b982f0f54dc2daef68a6625bb5de88f4ad6ada8/rides-0.5.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="7b982f0f54dc2daef68a6625bb5de88f4ad6ada8">
+        <dex dex="/home/dhruv/Desktop/SWIFTLY/app/build/intermediates/pre-dexed/debug/rides-0.5.2_88f6451567925d942e2434e48c1f988376a090ff.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/dhruv/Desktop/SWIFTLY/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="25438f55fc6d906a0e72f30b21487541430ede43">
+        <dex dex="/home/dhruv/Desktop/SWIFTLY/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-base-10.0.1_51e08953788488a9c114b52dd641e863942254cf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/dhruv/Desktop/SWIFTLY/app/build/intermediates/exploded-aar/com.github.medyo/fancybuttons/1.8.2/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="936fd700a7501509fec8ac684707b771e369fa62">
+        <dex dex="/home/dhruv/Desktop/SWIFTLY/app/build/intermediates/pre-dexed/debug/com.github.medyo-fancybuttons-1.8.2_ae5e45b6cd0c2b78fa7cb2ba2826e53bea06e672.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/dhruv/Desktop/SWIFTLY/app/build/intermediates/exploded-aar/com.android.support/design/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
+        <dex dex="/home/dhruv/Desktop/SWIFTLY/app/build/intermediates/pre-dexed/debug/com.android.support-design-24.2.1_bfcdb2db25c4f3e70b5eb9effed4ef8c4da9ed68.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/dhruv/Desktop/SWIFTLY/app/build/intermediates/exploded-aar/io.saeid/fab-loading/1.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="afaf250eca51b400b960c0127f5312b86721f3d8">
+        <dex dex="/home/dhruv/Desktop/SWIFTLY/app/build/intermediates/pre-dexed/debug/io.saeid-fab-loading-1.0.0_93543ae0e59a70fa1441f4761fc2b071e9fb73cb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/dhruv/Desktop/SWIFTLY/app/build/intermediates/exploded-aar/com.github.wangjiegulu/AndroidBucket/1.0.4/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="a2c9ce94bbc3c8bc1834c596dc5c8eca8fc04166">
+        <dex dex="/home/dhruv/Desktop/SWIFTLY/app/build/intermediates/pre-dexed/debug/com.github.wangjiegulu-AndroidBucket-1.0.4_d26a73d76f6135843cb164fae59aa7647e222983.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/dhruv/Desktop/SWIFTLY/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="/home/dhruv/Desktop/SWIFTLY/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-24.2.1_67ad13c6a29c1629d2e540b99edcd9adeca6222f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/dhruv/Desktop/SWIFTLY/app/build/intermediates/exploded-aar/com.uber.sdk/core-android/0.5.3/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="40d9be371bbc37ed64c423b31ac34f6ec9c71dd6">
+        <dex dex="/home/dhruv/Desktop/SWIFTLY/app/build/intermediates/pre-dexed/debug/com.uber.sdk-core-android-0.5.3_ae72d833ad542f51efc5aeda1cf4baf1564ded99.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/dhruv/Desktop/SWIFTLY/app/build/intermediates/exploded-aar/com.romainpiel.shimmer/library/1.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="605019d3e4be636f5dd74c83d05198994e3a2ce9">
+        <dex dex="/home/dhruv/Desktop/SWIFTLY/app/build/intermediates/pre-dexed/debug/com.romainpiel.shimmer-library-1.4.0_90b3b4a3eee407b13dae1a296125d872a802b003.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/dhruv/Desktop/SWIFTLY/app/build/intermediates/exploded-aar/com.android.support.constraint/constraint-layout/1.0.0-alpha3/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="650cf8686cd625acfbdd43f8ab33f6f2f057605f">
+        <dex dex="/home/dhruv/Desktop/SWIFTLY/app/build/intermediates/pre-dexed/debug/com.android.support.constraint-constraint-layout-1.0.0-alpha3_ab96a7a73b9b3ecb68554707110c4bce5de1216c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/dhruv/Desktop/SWIFTLY/app/build/intermediates/exploded-aar/com.uber.sdk/rides-android/0.5.3/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="5d426747c2c9f153a30b6bd7776790d2c3e87e82">
+        <dex dex="/home/dhruv/Desktop/SWIFTLY/app/build/intermediates/pre-dexed/debug/com.uber.sdk-rides-android-0.5.3_b08f50030a397555f88408f90029c1c0699a8d36.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/dhruv/Desktop/SWIFTLY/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="/home/dhruv/Desktop/SWIFTLY/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-24.2.1_efa6411afd5b72ebd3f7a9d0fc2ef5e8b4d09bcc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/dhruv/Desktop/SWIFTLY/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="27777b3cad3c20b1acab19f6e37fe3e03371bf6e">
+        <dex dex="/home/dhruv/Desktop/SWIFTLY/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-maps-10.0.1_17991ca878a074f5ae4e980c11e0e04c2da27180.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/dhruv/Desktop/SWIFTLY/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="/home/dhruv/Desktop/SWIFTLY/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-24.2.1_bd3e6a7d897913efe3cc4a51e1af0981a03d11b8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/dhruv/Desktop/SWIFTLY/app/build/intermediates/exploded-aar/com.github.florent37/materialtextfield/1.0.5/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="1178ff79ecace62352b61e7e116112d90116cab3">
+        <dex dex="/home/dhruv/Desktop/SWIFTLY/app/build/intermediates/pre-dexed/debug/com.github.florent37-materialtextfield-1.0.5_dc45e9bfc6b8aa7d10436921f41f9aca941e6684.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/dhruv/Desktop/SWIFTLY/app/build/intermediates/exploded-aar/com.github.wangjiegulu/AndroidInject/1.0.6/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="5ea9681ed41b1031733c2d7baf852cfa73897196">
+        <dex dex="/home/dhruv/Desktop/SWIFTLY/app/build/intermediates/pre-dexed/debug/com.github.wangjiegulu-AndroidInject-1.0.6_f195ee3d960a2b8773751361a4cf857bf7018218.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/media/dhruv/OS/Users/DHRUV/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="/home/dhruv/Desktop/SWIFTLY/app/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0_0741b6364c006ccc3dc3352182ff3475ad461e43.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/dhruv/Desktop/SWIFTLY/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="c5e6490573cd2cc8018417f60ddd251138b6ed61">
+        <dex dex="/home/dhruv/Desktop/SWIFTLY/app/build/intermediates/pre-dexed/debug/com.android.support-cardview-v7-24.2.1_d4ccc7285fb0da76bd21fa804bf9109a1f213850.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/media/dhruv/OS/Users/DHRUV/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.5/6b262da268f8ad9eff941b25503a9198f0a0ac93/slf4j-api-1.7.5.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="6b262da268f8ad9eff941b25503a9198f0a0ac93">
+        <dex dex="/home/dhruv/Desktop/SWIFTLY/app/build/intermediates/pre-dexed/debug/slf4j-api-1.7.5_9a8a720143f2da04c038ed7bf48aae778305e62e.jar" />
     </item>
 
 </items>

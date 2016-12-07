@@ -36,7 +36,9 @@
         <activity android:name=".ThePlaceList" />
         <activity android:name=".DigitalStorage" />
         <activity android:name=".FilesActivity" />
-        <activity android:name=".uploadActivity"></activity>
+        <activity android:name=".uploadActivity" />
+        <activity android:name=".ShowDoc" />
+        <activity android:name=".AadharDetails"></activity>
     </application>
 
 </manifest>
