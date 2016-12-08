@@ -20,6 +20,11 @@
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
+        <activity
+            android:name="campusshark.dhruv.swiftly.LiveTrackMap"
+            android:label="@string/title_activity_live_track_map">
+        </activity>
+
 
         <activity android:name=".MainActivity">
             <intent-filter>
@@ -46,7 +51,9 @@
         <service
             android:name=".LocationService"
             android:enabled="true"
-            android:exported="true"></service>
-    </application>
+            android:exported="true" />
 
+        <activity android:name=".WhoYouWantToTrack"></activity>
+
+    </application>
 </manifest>

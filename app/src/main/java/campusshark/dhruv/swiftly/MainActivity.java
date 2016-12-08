@@ -32,6 +32,7 @@ public class MainActivity extends AppCompatActivity {
 
     FancyButton btnCabs;
     FancyButton btnNearby;
+    FancyButton btnLiveTrack;
 
     public void buttoncode(View view) {
         Intent i = new Intent(MainActivity.this, DigitalStorage.class);
@@ -57,6 +58,15 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(MainActivity.this, NearbyPlaces.class);
+                startActivity(i);
+            }
+        });
+
+        btnLiveTrack = (FancyButton) findViewById(R.id.btn_live_tracking);
+        btnLiveTrack.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(MainActivity.this, WhoYouWantToTrack.class);
                 startActivity(i);
             }
         });

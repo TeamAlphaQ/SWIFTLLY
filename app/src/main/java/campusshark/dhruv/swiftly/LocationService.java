@@ -54,59 +54,6 @@ public class LocationService extends Service {
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
 
-//        final Handler handler = new Handler();
-//
-//        new Thread(new Runnable() {
-//            @Override
-//            public void run() {
-//                while (true) {
-//                    try {
-//                        Log.d(TAG,"firstRun");
-//                        Thread.sleep(100);
-//                        handler.post(new Runnable() {
-//                            @Override
-//                            public void run() {
-//                                Log.d(TAG,"secondRun");
-//                                ParseQuery<ParseObject> query = ParseQuery.getQuery("Location");
-//                                query.getInBackground(trackingID, new GetCallback<ParseObject>() {
-//                                    @Override
-//                                    public void done(ParseObject object, ParseException e) {
-//                                        if (e == null) {
-//                                            object.put("updatedLocation", point);
-//                                            object.saveInBackground();
-//                                        }
-//                                    }
-//                                });
-//
-//                                Log.d(TAG, "locationInsideThread: " + currentLat + "\n" + currentLong);
-//                                location.put("location", point);
-//                                location.saveInBackground();
-//                            }
-//                        });
-//                    } catch (InterruptedException e) {
-//                        e.printStackTrace();
-//                    }
-//                }
-//            }
-//        });
-
-
-//        ParseQuery<ParseObject> query = ParseQuery.getQuery("Location");
-//        query.getInBackground(trackingID, new GetCallback<ParseObject>() {
-//            @Override
-//            public void done(ParseObject object, ParseException e) {
-//                if (e == null) {
-//                    object.put("updatedLocation", point);
-//                    object.saveInBackground();
-//                }
-//            }
-//        });
-//
-//        Log.d(TAG, "location: " + currentLat + "\n" + currentLong);
-//        location.put("location", point);
-//        location.saveInBackground();
-
-
         return START_STICKY;
     }
 
@@ -151,7 +98,6 @@ public class LocationService extends Service {
     }
 
     void updateLocation(Location location) {
-
         currentLat = location.getLatitude();
         currentLong = location.getLongitude();
         point = new ParseGeoPoint(currentLat, currentLong);
@@ -166,7 +112,7 @@ public class LocationService extends Service {
                 while (true) {
                     try {
                         Log.d(TAG, "firstRun");
-                        Thread.sleep(10000);
+                        Thread.sleep(60000);
                         handler.post(new Runnable() {
                             @Override
                             public void run() {
@@ -181,7 +127,6 @@ public class LocationService extends Service {
                                         }
                                     }
                                 });
-
                                 Log.d(TAG, "locationInsideThread: " + currentLat + "\n" + currentLong);
                                 parseObjLocation.put("location", point);
                                 parseObjLocation.saveInBackground();

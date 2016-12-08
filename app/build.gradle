@@ -22,6 +22,7 @@ android {
     }
 }
 
+
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
@@ -29,9 +30,10 @@ dependencies {
     })
 
     //    compile 'com.google.android.gms:play-services:9.6.1'
+    compile project(':scanlibrary')
+    compile 'com.github.medyo:fancybuttons:1.8.2'
     compile 'com.parse.bolts:bolts-tasks:1.3.0'
     compile 'com.parse:parse-android:1.13.0'
-    compile project(':scanlibrary')
     compile 'com.android.support:appcompat-v7:24.2.1'
     compile 'com.github.medyo:fancybuttons:1.8.2'
     compile 'com.android.support:design:24.2.1'
@@ -45,7 +47,6 @@ dependencies {
     compile 'com.android.support:recyclerview-v7:24.2.1'
     compile 'com.github.florent37:materialtextfield:1.0.5'
     compile 'com.github.dmytrodanylyk.circular-progress-button:library:1.1.3'
-    compile 'com.github.medyo:fancybuttons:1.8.2'
     compile 'com.romainpiel.shimmer:library:1.4.0@aar'
     compile 'io.saeid:fab-loading:1.0.0'
     compile 'com.squareup.picasso:picasso:2.5.2'
@@ -54,6 +55,7 @@ dependencies {
     compile 'com.github.wangjiegulu:AndroidInject:1.0.6'
     compile 'com.github.wangjiegulu:ShadowViewHelper:1.0.1'
     compile 'com.getbase:floatingactionbutton:1.10.1'
+    compile 'com.android.support.constraint:constraint-layout:1.0.0-alpha9'
+    compile 'com.google.android.gms:play-services:10.0.1'
     testCompile 'junit:junit:4.12'
-    compile 'com.android.support.constraint:constraint-layout:1.0.0-alpha3'
 }
