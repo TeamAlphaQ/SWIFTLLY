@@ -43,13 +43,14 @@ public class ThePlaceList extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_the_place_list);
-        new getPlaceId().execute();
         recyclerView = (RecyclerView) findViewById(R.id.place_list_rv);
         recyclerView.setHasFixedSize(true);
         layoutManager = new LinearLayoutManager(this);
         recyclerView.setLayoutManager(layoutManager);
         adapter = new rvAdapterType(getDataSet());
         recyclerView.setAdapter(adapter);
+
+        new getPlaceId().execute();
     }
 
     @Override
@@ -170,7 +171,7 @@ public class ThePlaceList extends AppCompatActivity {
 //            for (int i = 0; i < 10; i++)
             {
                 Log.d(TAG, "jsonPlace: " + jsonPlace);
-                if(jsonPlace!=null) {
+                if (jsonPlace != null) {
                     try {
                         JSONObject jsonObjectMaKiChu = new JSONObject(jsonPlace);
                         Log.d(TAG, "jsonMKC: " + jsonObjectMaKiChu);

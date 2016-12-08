@@ -113,7 +113,6 @@ public class NearbyPlaces extends AppCompatActivity {
         mRecyclerView.setAdapter(mAdapter);
 
         FindLocation();
-
         url = "https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=" + currentLat + "," + currentLong + "&rankby=distance&type=" + temp + "&keyword=" + temp + "&key=" + APIKEY;
     }
 
@@ -126,6 +125,8 @@ public class NearbyPlaces extends AppCompatActivity {
             @Override
             public void onItemClick(int position, View v) {
                 temp = apiKeyword[position];
+                Log.d(TAG, "urlOnResume: " + url);
+                url = "https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=" + currentLat + "," + currentLong + "&rankby=distance&type=" + temp + "&keyword=" + temp + "&key=" + APIKEY;
                 Intent i = new Intent(NearbyPlaces.this, ThePlaceList.class);
                 startActivity(i);
                 Log.i(TAG, " Clicked on Item " + position);
@@ -175,7 +176,6 @@ public class NearbyPlaces extends AppCompatActivity {
         }
         locationManager.requestLocationUpdates(
                 LocationManager.NETWORK_PROVIDER, 0, 0, locationListener);
-
     }
 
     void updateLocation(Location location) {

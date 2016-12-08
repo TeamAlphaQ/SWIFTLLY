@@ -165,6 +165,12 @@ public class uploadActivity extends AppCompatActivity {
                         startActivity(i);
                     }
 
+                    if(buttonType.equals("licence"))
+                    {
+                        i = new Intent(uploadActivity.this, LicenceDetails.class);
+                        i.putExtra("url",file.getUrl());
+                        startActivity(i);
+                    }
 
                 }
             }

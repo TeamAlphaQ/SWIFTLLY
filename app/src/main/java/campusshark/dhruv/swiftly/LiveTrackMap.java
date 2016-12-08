@@ -53,10 +53,10 @@ public class LiveTrackMap extends FragmentActivity implements OnMapReadyCallback
         ParseGeoPoint bravoLoc = WhoYouWantToTrack.bravoLoc;
 
         // Add a marker in Sydney and move the camera
-        final LatLng bravo = new LatLng(bravoLoc.getLatitude(), bravoLoc.getLongitude());
-        mMap.addMarker(new MarkerOptions().position(bravo).title("START"));
-        mMap.moveCamera(CameraUpdateFactory.newLatLng(bravo));
-        mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(bravo, 14.0f));
+        final LatLng[] bravo = {new LatLng(bravoLoc.getLatitude(), bravoLoc.getLongitude())};
+        mMap.addMarker(new MarkerOptions().position(bravo[0]).title("START"));
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(bravo[0]));
+        mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(bravo[0], 14.0f));
 //        Circle circle = mMap.addCircle(new CircleOptions().center(bravo).radius(50).fillColor(Color.CYAN));
 
 
@@ -101,7 +101,8 @@ public class LiveTrackMap extends FragmentActivity implements OnMapReadyCallback
                                             mMap.moveCamera(CameraUpdateFactory.newLatLng(currLatLng));
 //                                            Circle circle = mMap.addCircle(new CircleOptions().center(currLatLng).radius(1000).fillColor(Color.CYAN));
 
-                                            Polyline line = mMap.addPolyline(new PolylineOptions().add(currLatLng, bravo).width(5).color(Color.RED));
+                                            Polyline line = mMap.addPolyline(new PolylineOptions().add(currLatLng, bravo[0]).width(5).color(Color.RED));
+                                            bravo[0] = currLatLng;
                                         }
                                     }
                                 });
