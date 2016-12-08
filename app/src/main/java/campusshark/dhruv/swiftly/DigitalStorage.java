@@ -108,26 +108,5 @@ public class DigitalStorage extends AppCompatActivity {
             }
         });
 
-
-/*
-        ParseQuery<ParseObject> query = ParseQuery.getQuery("DigitalStorage");
-        query.getInBackground("E0621RFMjN", new GetCallback<ParseObject>() {
-            public void done(ParseObject object, ParseException e) {
-                if (e == null) {
-                        ParseFile aadhar = (ParseFile) object.get("aadhar");
-                        aadhar.getDataInBackground(new GetDataCallback() {
-                            @Override
-                            public void done(byte[] data, ParseException e) {
-                                Bitmap bitmap = BitmapFactory.decodeByteArray(data,0,data.length);
-                                ImageView img = (ImageView) findViewById(R.id.imageView2);
-                                img.setImageBitmap(bitmap);
-                            }
-                        });
-                } else {
-                    // something went wrong
-                }
-            }
-        });*/
-
     }
 }

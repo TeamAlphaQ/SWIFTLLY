@@ -54,6 +54,7 @@ dependencies {
     compile 'com.github.wangjiegulu:AndroidInject:1.0.6'
     compile 'com.github.wangjiegulu:ShadowViewHelper:1.0.1'
     compile 'com.getbase:floatingactionbutton:1.10.1'
+    compile 'com.heinrichreimersoftware:material-intro:1.6'
     testCompile 'junit:junit:4.12'
     compile 'com.android.support.constraint:constraint-layout:1.0.0-alpha3'
 }

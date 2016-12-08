@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="colorPrimary">#009688</color>
-    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorPrimaryDark">#303f9f</color>
     <color name="colorAccent">#FF4081</color>
     <color name="teal">#b0bec5</color>
     <color name="red">#43a047</color>
     <color name="orange">#f4511e</color>
     <color name="teal1">#009688</color>
     <color name="red_real">#c62828</color>
+    <color name="slide1Color">#00b2ff</color>
+    <color name="slide1ColorDark">#027696</color>
 </resources>

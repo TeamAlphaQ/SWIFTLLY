@@ -1,6 +1,8 @@
 package campusshark.dhruv.swiftly;
 
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.graphics.Color;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -33,15 +35,26 @@ public class MainActivity extends AppCompatActivity{
     FancyButton btnCabs;
     FancyButton btnNearby;
 
-    public void buttoncode (View view){
-        Intent i = new Intent(MainActivity.this,DigitalStorage.class);
-        startActivity(i);
-    }
+    boolean firstTime;
+
+    SharedPreferences sharedPreferences;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        sharedPreferences = this.getSharedPreferences("campusshark.dhruv.swiflty", Context.MODE_PRIVATE);
+
+        if (sharedPreferences.getBoolean("firstTime",true)) {
+
+            Intent intent = new Intent(MainActivity.this,AppIntro.class);
+            startActivity(intent);
+
+            firstTime=false;
+            sharedPreferences.edit().putBoolean("firstTime",firstTime).apply();
+        }
+
 
         btnCabs = (FancyButton) findViewById(R.id.btn_cabs);
         btnCabs.setOnClickListener(new View.OnClickListener() {
@@ -70,11 +83,20 @@ public class MainActivity extends AppCompatActivity{
             }
         });
 
+        Button crisis = (Button) findViewById(R.id.crisis);
+        crisis.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(MainActivity.this, CrisisActivity.class);
+                startActivity(i);
+            }
+        });
+
         final FloatingActionButton actionA = (FloatingActionButton) findViewById(R.id.action_a);
         actionA.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(MainActivity.this,CabActivity.class);
+                Intent i = new Intent(MainActivity.this, CabActivity.class);
                 startActivity(i);
             }
         });
@@ -83,12 +105,10 @@ public class MainActivity extends AppCompatActivity{
         actionB.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(MainActivity.this,NearbyPlaces.class);
+                Intent i = new Intent(MainActivity.this, NearbyPlaces.class);
                 startActivity(i);
             }
         });
-
-
     }
 
 }
