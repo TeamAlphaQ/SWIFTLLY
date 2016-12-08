@@ -3,8 +3,9 @@
     package="campusshark.dhruv.swiftly">
 
     <uses-permission android:name="android.permission.INTERNET" />
-    <!-- <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" /> -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
         android:name=".StarterApplication"
@@ -38,7 +39,14 @@
         <activity android:name=".FilesActivity" />
         <activity android:name=".uploadActivity" />
         <activity android:name=".ShowDoc" />
-        <activity android:name=".AadharDetails"></activity>
+        <activity android:name=".AadharDetails" />
+        <activity android:name=".LiveTracking" />
+        <activity android:name=".RegisterForTracking" />
+
+        <service
+            android:name=".LocationService"
+            android:enabled="true"
+            android:exported="true"></service>
     </application>
 
 </manifest>

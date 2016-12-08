@@ -61,7 +61,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
-        sha1="746471898c8055e8720666926a2836a97ae64da6">
+        sha1="f52f746b56bab11252d546c01de63ca3c8cec128">
         <dex dex="/home/dhruv/Desktop/SWIFTLY/app/build/intermediates/pre-dexed/debug/instant-run-bootstrap_cf5ca8fdef36b59c9603eb7fdd5de70412d17c87.jar" />
     </item>
     <item
@@ -376,7 +376,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
-        sha1="573cd158b0cbc84f2188ebbd00fa34de11e5e70f">
+        sha1="40940e2096b6eb7a0ca53762d952cd25c0aecfac">
         <dex dex="/home/dhruv/Desktop/SWIFTLY/app/build/intermediates/pre-dexed/debug/instant-run_9126f02573fa3cd22f98cfc6bf026e4051ec0634.jar" />
     </item>
     <item

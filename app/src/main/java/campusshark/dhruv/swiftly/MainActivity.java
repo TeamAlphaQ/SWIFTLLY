@@ -28,13 +28,13 @@ import java.util.List;
 
 import mehdi.sakout.fancybuttons.FancyButton;
 
-public class MainActivity extends AppCompatActivity{
+public class MainActivity extends AppCompatActivity {
 
     FancyButton btnCabs;
     FancyButton btnNearby;
 
-    public void buttoncode (View view){
-        Intent i = new Intent(MainActivity.this,DigitalStorage.class);
+    public void buttoncode(View view) {
+        Intent i = new Intent(MainActivity.this, DigitalStorage.class);
         startActivity(i);
     }
 
@@ -74,20 +74,28 @@ public class MainActivity extends AppCompatActivity{
         actionA.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(MainActivity.this,CabActivity.class);
+                Intent i = new Intent(MainActivity.this, CabActivity.class);
                 startActivity(i);
             }
         });
 
-        final FloatingActionButton actionB = (FloatingActionButton) findViewById(R.id.action_a);
+        final FloatingActionButton actionB = (FloatingActionButton) findViewById(R.id.action_b);
         actionB.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(MainActivity.this,NearbyPlaces.class);
+                Intent i = new Intent(MainActivity.this, NearbyPlaces.class);
                 startActivity(i);
             }
         });
 
+        final FloatingActionButton actionC = (FloatingActionButton) findViewById(R.id.action_c);
+        actionB.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(MainActivity.this, RegisterForTracking.class);
+                startActivity(i);
+            }
+        });
 
     }
 
