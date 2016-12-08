@@ -6,6 +6,7 @@ import android.content.SharedPreferences;
 import android.os.CountDownTimer;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
 
@@ -14,6 +15,7 @@ import com.parse.FindCallback;
 import com.parse.ParseException;
 import com.parse.ParseObject;
 import com.parse.ParseQuery;
+import com.parse.SaveCallback;
 import com.romainpiel.shimmer.Shimmer;
 import com.romainpiel.shimmer.ShimmerTextView;
 
@@ -82,6 +84,8 @@ public class RegisterForTracking extends AppCompatActivity {
         et_password = (EditText)findViewById(R.id.editText4);
 
         final CircularProgressButton circularProgressButton = (CircularProgressButton) findViewById(R.id.cbutton);
+        final CircularProgressButton circularProgressButtonSignUP = (CircularProgressButton) findViewById(R.id.cbutton_sign_up);
+
         ShimmerTextView shimmerTextView = (ShimmerTextView) findViewById(R.id.shimmer_tv);
 
         final Shimmer shimmer = new Shimmer();
@@ -89,6 +93,36 @@ public class RegisterForTracking extends AppCompatActivity {
 
         circularProgressButton.setProgress(0);
         circularProgressButton.setIndeterminateProgressMode(true);
+
+        circularProgressButtonSignUP.setProgress(0);
+        circularProgressButtonSignUP.setIndeterminateProgressMode(true);
+
+        circularProgressButtonSignUP.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                ParseObject newUser = new ParseObject("DigitalStorage");
+
+                newUser.put("userName", et_uName.getText().toString());
+                newUser.put("password", et_password.getText().toString());
+
+                circularProgressButtonSignUP.setProgress(50);
+
+                newUser.saveInBackground(new SaveCallback() {
+                    @Override
+                    public void done(ParseException e) {
+                        if (e == null) {
+                            circularProgressButtonSignUP.setProgress(100);
+                            runQuery(circularProgressButtonSignUP);
+                        } else {
+                            Log.d("e: ", "E: " + e);
+                            circularProgressButtonSignUP.setProgress(-1);
+                        }
+                    }
+                });
+            }
+        });
+
 
         circularProgressButton.setOnClickListener(new View.OnClickListener() {
             @Override

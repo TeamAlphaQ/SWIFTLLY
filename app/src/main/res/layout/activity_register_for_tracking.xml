@@ -78,18 +78,40 @@
 
     <com.dd.CircularProgressButton
         android:id="@+id/cbutton"
-        android:layout_width="196dp"
-        android:layout_height="64dp"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
         android:layout_marginTop="16dp"
         android:textColor="#FFFFFF"
         android:textSize="18sp"
         app:cpb_cornerRadius="48dp"
         app:cpb_textComplete="SUCCESSFUL"
         app:cpb_textError="ERROR"
-        app:cpb_textIdle="REGISTER"
+        app:cpb_textIdle="SIGN IN"
         app:layout_constraintTop_toBottomOf="@+id/mt2"
         android:layout_marginEnd="16dp"
         app:layout_constraintRight_toRightOf="@+id/activity_digital_storage"
+        android:layout_marginRight="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/activity_digital_storage"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintHorizontal_bias="0.46"
+        app:layout_constraintVertical_bias="0.25"
+        android:background="@android:color/holo_orange_dark" />
+
+    <com.dd.CircularProgressButton
+        android:id="@+id/cbutton_sign_up"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:layout_marginTop="16dp"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:cpb_cornerRadius="48dp"
+        app:cpb_textComplete="SUCCESSFUL"
+        app:cpb_textError="ERROR"
+        app:cpb_textIdle="SIGN UP"
+        app:layout_constraintTop_toBottomOf="@+id/mt2"
+        android:layout_marginEnd="16dp"
         android:layout_marginRight="16dp"
         android:layout_marginStart="16dp"
         app:layout_constraintLeft_toLeftOf="@+id/activity_digital_storage"
@@ -97,6 +119,9 @@
         app:layout_constraintBottom_toBottomOf="@+id/activity_digital_storage"
         android:layout_marginBottom="16dp"
         app:layout_constraintHorizontal_bias="0.46"
-        app:layout_constraintVertical_bias="0.58"
+        app:layout_constraintVertical_bias="0.25"
         android:background="@android:color/holo_orange_dark" />
+
+
+
 </android.support.constraint.ConstraintLayout>
