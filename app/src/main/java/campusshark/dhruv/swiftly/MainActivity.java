@@ -1,6 +1,8 @@
 package campusshark.dhruv.swiftly;
 
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.graphics.Color;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -38,11 +40,26 @@ public class MainActivity extends AppCompatActivity {
         Intent i = new Intent(MainActivity.this, DigitalStorage.class);
         startActivity(i);
     }
+    boolean firstTime;
+
+    SharedPreferences sharedPreferences;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        sharedPreferences = this.getSharedPreferences("campusshark.dhruv.swiflty", Context.MODE_PRIVATE);
+
+        if (sharedPreferences.getBoolean("firstTime",true)) {
+
+            Intent intent = new Intent(MainActivity.this,AppIntro.class);
+            startActivity(intent);
+
+            firstTime=false;
+            sharedPreferences.edit().putBoolean("firstTime",firstTime).apply();
+        }
+
 
         btnCabs = (FancyButton) findViewById(R.id.btn_cabs);
         btnCabs.setOnClickListener(new View.OnClickListener() {
@@ -76,6 +93,15 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent i = new Intent(MainActivity.this, DigitalStorage.class);
+                startActivity(i);
+            }
+        });
+
+        Button crisis = (Button) findViewById(R.id.crisis);
+        crisis.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(MainActivity.this, CrisisActivity.class);
                 startActivity(i);
             }
         });

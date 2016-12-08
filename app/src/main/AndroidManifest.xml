@@ -53,6 +53,23 @@
 
         <activity android:name=".WhoYouWantToTrack" />
         <activity android:name=".LicenceDetails"></activity>
+        <activity android:name=".uploadActivity" />
+        <activity
+            android:name=".AppIntro"
+            android:theme="@style/Theme.Intro" />
+        <activity android:name=".CrisisActivity"
+            android:theme="@style/Theme.AppCompat.Light">
+
+        </activity>
+        <activity android:name=".DriverSeesRequester">
+
+        </activity>
+        <activity android:name=".MapsActivity">
+
+        </activity>
+        <activity android:name=".ViewRequests">
+
+        </activity>
     </application>
 
 </manifest>
