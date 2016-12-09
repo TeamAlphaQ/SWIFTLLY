@@ -77,6 +77,8 @@ public class CabActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_cab);
 
+//        getSupportActionBar().hide();
+
         pickTxt = (TextView) findViewById(R.id.textView);
         dropTxt = (TextView) findViewById(R.id.textView1);
 
@@ -249,11 +251,14 @@ public class CabActivity extends AppCompatActivity {
         @Override
         protected void onPostExecute(Void aVoid) {
             progressDialog.dismiss();
-            tvUberDis.setText(uberDistance + " Km.");
-            tvUbertime.setText((int) uberDuration + " min.");
+
+            tvUberDis.setText("Distance : " + uberDistance + " Km.");
+            Log.d(TAG,"uber:: "+uberDistance+"\n"+uberLowEstimate);
+
+            tvUbertime.setText("Ride Time: " + (int) uberDuration + " min.");
             tvUberCost.setText("Rs. " + uberLowEstimate + " - " + uberhighEstimate);
+
             super.onPostExecute(aVoid);
         }
     }
 }
-

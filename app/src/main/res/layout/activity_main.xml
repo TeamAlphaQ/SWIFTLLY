@@ -76,26 +76,25 @@
         fancy:fb_text=" LIVE TRACKING   "
         fancy:fb_textColor="#FFFFFF" />
 
-
-
-
     <com.getbase.floatingactionbutton.FloatingActionsMenu
         android:id="@+id/multiple_actions"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="13dp"
-        fab:fab_addButtonColorNormal="@color/red_real"
-        fab:fab_addButtonColorPressed="@color/teal1"
-        fab:fab_addButtonPlusIconColor="@color/teal1"
-        fab:fab_labelStyle="@style/menu_labels_style"
         android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true">
+        android:layout_marginBottom="3dp"
+        android:background="@drawable/gym"
+        fab:fab_addButtonColorNormal="@color/teal1"
+        fab:fab_addButtonColorPressed="@color/teal1"
+        fab:fab_addButtonPlusIconColor="@color/uber_white"
+        fab:fab_labelStyle="@style/menu_labels_style">
 
         <com.getbase.floatingactionbutton.FloatingActionButton
             android:id="@+id/action_a"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:src="@drawable/gallery"
             fab:fab_colorNormal="@color/orange"
             fab:fab_colorPressed="@color/colorPrimary"
             fab:fab_title="Call a cab" />
@@ -103,8 +102,8 @@
         <com.getbase.floatingactionbutton.FloatingActionButton
             android:id="@+id/action_b"
             android:layout_width="wrap_content"
-            android:background="@drawable/nearme"
             android:layout_height="wrap_content"
+            android:background="@drawable/nearme"
             fab:fab_colorNormal="@color/material_blue_500"
             fab:fab_colorPressed="@color/colorPrimary"
             fab:fab_title="Nearby Places" />
@@ -112,60 +111,67 @@
         <com.getbase.floatingactionbutton.FloatingActionButton
             android:id="@+id/action_c"
             android:layout_width="wrap_content"
-            android:background="@drawable/nearme"
             android:layout_height="wrap_content"
+            android:background="@drawable/nearme"
             fab:fab_colorNormal="@color/cpb_green"
             fab:fab_colorPressed="@color/colorPrimary"
             fab:fab_title="Register for Live Tracking" />
 
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/action_d"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/nearme"
+            fab:fab_colorNormal="@color/orange"
+            fab:fab_colorPressed="@color/colorPrimary"
+            fab:fab_title="Start Live Tracking" />
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/action_e"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/nearme"
+            fab:fab_colorNormal="@color/colorAccent"
+            fab:fab_colorPressed="@color/colorPrimary"
+            fab:fab_title="Grievance" />
+
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/action_f"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/nearme"
+            fab:fab_colorNormal="@color/cpb_green"
+            fab:fab_colorPressed="@color/colorPrimary"
+            fab:fab_title="Crisis Management" />
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/action_g"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/nearme"
+            fab:fab_colorNormal="@color/orange"
+            fab:fab_colorPressed="@color/colorPrimary"
+            fab:fab_title="Digital Storage" />
+
     </com.getbase.floatingactionbutton.FloatingActionsMenu>
 
-
-    <!--<com.wangjie.rapidfloatingactionbutton.RapidFloatingActionLayout-->
-    <!--xmlns:rfal="http://schemas.android.com/apk/res-auto"-->
-    <!--android:id="@+id/activity_main_rfal"-->
-    <!--android:layout_width="match_parent"-->
-    <!--android:layout_height="match_parent"-->
-    <!--rfal:rfal_frame_alpha="0.7"-->
-    <!--rfal:rfal_frame_color="#ffffff">-->
-
-    <!--<com.wangjie.rapidfloatingactionbutton.RapidFloatingActionButton-->
-    <!--xmlns:rfab="http://schemas.android.com/apk/res-auto"-->
-    <!--android:id="@+id/activity_main_rfab"-->
-    <!--android:layout_width="wrap_content"-->
-    <!--android:layout_height="wrap_content"-->
-    <!--android:layout_alignParentBottom="true"-->
-    <!--android:layout_alignParentRight="true"-->
-    <!--android:layout_marginBottom="15dp"-->
-    <!--android:layout_marginRight="15dp"-->
-    <!--android:padding="8dp"-->
-    <!--rfab:rfab_color_normal="#ff5722"-->
-    <!--rfab:rfab_color_pressed="#263238"-->
-    <!--rfab:rfab_drawable="@drawable/airport"-->
-    <!--rfab:rfab_shadow_color="#999999"-->
-    <!--rfab:rfab_shadow_dx="0dp"-->
-    <!--rfab:rfab_shadow_dy="5dp"-->
-    <!--rfab:rfab_shadow_radius="7dp"-->
-    <!--rfab:rfab_size="normal" />-->
-
-    <!--</com.wangjie.rapidfloatingactionbutton.RapidFloatingActionLayout>-->
-
     <Button
-        android:text="Button"
+        android:id="@+id/button4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:id="@+id/button4" />
+        android:text="Button" />
 
     <Button
-        android:text="Button"
+        android:id="@+id/crisis"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
         android:layout_alignLeft="@+id/button2"
+        android:layout_alignParentTop="true"
         android:layout_alignStart="@+id/button2"
-        android:id="@+id/crisis" />
+        android:text="Button" />
 
 
 </RelativeLayout>

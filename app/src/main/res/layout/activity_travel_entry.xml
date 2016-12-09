@@ -1,156 +1,195 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:fab="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    xmlns:uber="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/activity_cab"
+    android:id="@+id/activity_digital_storage"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/red"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="campusshark.dhruv.swiftly.CabActivity">
+    android:background="@android:color/background_dark"
+    tools:context="campusshark.dhruv.swiftly.DigitalStorage">
 
-    <!--<SearchView-->
-    <!--android:id="@+id/pickLocation"-->
-    <!--android:layout_width="match_parent"-->
-    <!--android:layout_height="45dp"-->
-    <!--android:queryHint="Enter Pickup Location"-->
-    <!--android:background="@color/colorPrimary"-->
-    <!--android:layout_alignParentTop="true"-->
-    <!--android:layout_alignParentRight="true"-->
-    <!--android:layout_alignParentEnd="true" />-->
+    <com.romainpiel.shimmer.ShimmerTextView
+        android:id="@+id/shimmer_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:text="Travel Details"
+        android:textAlignment="center"
+        android:textColor="#848383"
+        android:textSize="50sp"
+        app:layout_constraintLeft_toLeftOf="@+id/activity_digital_storage"
+        app:layout_constraintTop_toTopOf="@+id/activity_digital_storage"
+        app:reflectionColor="#ffffff" />
 
-    <!--<SearchView-->
-    <!--android:id="@+id/dropLocation"-->
-    <!--android:layout_width="match_parent"-->
-    <!--android:layout_height="45dp"-->
-    <!--android:queryHint="Enter Drop Location"-->
-    <!--android:background="@color/colorPrimary"-->
-    <!--android:layout_marginTop="69dp"-->
-    <!--android:layout_alignParentTop="true"-->
-    <!--android:layout_alignParentLeft="true"-->
-    <!--android:layout_alignParentStart="true" />-->
 
-    <!--<Button-->
-    <!--android:id="@+id/btnPickUpLocation"-->
-    <!--android:layout_width="140dp"-->
-    <!--android:layout_height="30dp" />-->
+    <com.github.florent37.materialtextfield.MaterialTextField
+        android:id="@+id/materialTextField"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="38dp"
+        app:layout_constraintBottom_toBottomOf="@+id/activity_digital_storage"
+        app:layout_constraintLeft_toLeftOf="@+id/activity_digital_storage"
+        app:layout_constraintRight_toRightOf="@+id/activity_digital_storage"
+        app:layout_constraintTop_toBottomOf="@+id/shimmer_tv"
+        app:layout_constraintVertical_bias="0.0"
+        app:mtf_image="@drawable/airport"
+        app:mtf_labelColor="#FFFFFF">
 
-    <RelativeLayout
-        android:id="@+id/pickUpRl"
-        android:layout_width="match_parent"
-        android:background="@color/uber_white"
-        android:layout_height="45dp"
-        android:layout_above="@+id/dropRL"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginBottom="90dp">
-
-        <ImageView
-            android:layout_width="30dp"
-            android:layout_marginLeft="10dp"
-            android:src="@drawable/locationsearch"
-            android:layout_height="wrap_content"
-            android:id="@+id/imageView" />
-
-        <TextView
-            android:textStyle="bold"
-            android:textSize="20dp"
-            android:text="Select Pickup Location"
-            android:layout_width="match_parent"
-            android:layout_height="35dp"
+        <EditText
             android:id="@+id/textView"
-            android:layout_centerVertical="true"
-            android:layout_toRightOf="@+id/imageView"
-            android:layout_toEndOf="@+id/imageView"
-            android:layout_marginLeft="18dp"
-            android:layout_marginStart="18dp" />
-
-    </RelativeLayout>
-
-    <RelativeLayout
-        android:id="@+id/dropRL"
-        android:layout_width="match_parent"
-        android:background="@color/uber_white"
-        android:layout_height="45dp"
-        android:layout_marginBottom="107dp"
-        android:layout_above="@+id/btn_goToCabAct"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true">
-
-        <ImageView
-            android:layout_width="30dp"
-            android:layout_marginLeft="10dp"
-            android:src="@drawable/locationsearch"
-            android:layout_height="wrap_content" />
-
-        <TextView
-            android:textStyle="bold"
-            android:textSize="20dp"
-            android:layout_marginLeft="18dp"
-            android:text="Select Drop Location"
             android:layout_width="match_parent"
-            android:layout_height="35dp"
+            android:layout_height="match_parent"
+            android:ems="10"
+            android:hint="Select Pick Up Location"
+            android:inputType="textPersonName"
+            android:textColor="@color/cardview_dark_background"
+            android:textColorHint="@color/cardview_light_background"
+            android:textSize="15sp" />
+
+    </com.github.florent37.materialtextfield.MaterialTextField>
+
+
+    <com.github.florent37.materialtextfield.MaterialTextField
+        android:id="@+id/mt2"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="38dp"
+        app:layout_constraintBottom_toBottomOf="@+id/activity_digital_storage"
+        app:layout_constraintLeft_toLeftOf="@+id/materialTextField"
+        app:layout_constraintRight_toRightOf="@+id/materialTextField"
+        app:layout_constraintTop_toBottomOf="@+id/materialTextField"
+        app:layout_constraintVertical_bias="0.060000002"
+        app:mtf_image="@drawable/airport"
+        app:mtf_labelColor="#FFFFFF">
+
+        <EditText
             android:id="@+id/textView1"
-            android:layout_centerVertical="true"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-            android:layout_marginStart="58dp" />
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:ems="10"
+            android:hint="Select Drop Location"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="15sp" />
 
-    </RelativeLayout>
+    </com.github.florent37.materialtextfield.MaterialTextField>
 
-    <android.support.design.widget.FloatingActionButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:clickable="true"
-        uber:fabSize="normal"
-        uber:srcCompat="@android:drawable/ic_menu_send"
-        android:layout_marginRight="25dp"
-        android:layout_marginEnd="25dp"
-        android:layout_marginBottom="30dp"
+    <com.dd.CircularProgressButton
         android:id="@+id/btn_goToCabAct"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="56dp"
+        android:background="@android:color/holo_orange_dark"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:cpb_cornerRadius="48dp"
+        app:cpb_textComplete="SUCCESSFUL"
+        app:cpb_textError="ERROR"
+        app:cpb_textIdle="TAKE RIDE"
+        app:layout_constraintBottom_toBottomOf="@+id/activity_digital_storage"
+        app:layout_constraintHorizontal_bias="0.46"
+        app:layout_constraintRight_toRightOf="@+id/activity_digital_storage"
+        app:layout_constraintTop_toBottomOf="@+id/mt2"
+        app:layout_constraintVertical_bias="0.25" />
 
-    <com.getbase.floatingactionbutton.FloatingActionsMenu
-        android:id="@+id/multiple_actions"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="13dp"
-        fab:fab_addButtonColorNormal="@color/orange"
-        fab:fab_addButtonColorPressed="@color/teal1"
-        fab:fab_addButtonPlusIconColor="@color/teal1"
-        fab:fab_labelStyle="@style/menu_labels_style"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true">
+    <!--<android.support.design.widget.FloatingActionButton-->
+    <!--android:id="@+id/btn_goToCabAct"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_alignParentBottom="true"-->
+    <!--android:layout_alignParentLeft="true"-->
+    <!--android:layout_alignParentStart="true"-->
+    <!--android:layout_marginBottom="30dp"-->
+    <!--android:layout_marginEnd="25dp"-->
+    <!--android:layout_marginRight="25dp"-->
+    <!--android:clickable="true"-->
+    <!--uber:fabSize="normal"-->
+    <!--uber:srcCompat="@android:drawable/ic_menu_send" />-->
 
-        <com.getbase.floatingactionbutton.FloatingActionButton
-            android:id="@+id/action_a"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            fab:fab_colorNormal="@color/teal1"
-            fab:fab_colorPressed="@color/colorPrimary"
-            fab:fab_title="Home" />
+    <!--<com.getbase.floatingactionbutton.FloatingActionsMenu-->
+    <!--android:id="@+id/multiple_actions"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--fab:fab_addButtonColorNormal="@color/teal1"-->
+    <!--fab:fab_addButtonColorPressed="@color/teal1"-->
+    <!--fab:fab_addButtonPlusIconColor="@color/teal1"-->
+    <!--fab:fab_labelStyle="@style/menu_labels_style"-->
+    <!--android:layout_alignBottom="@+id/btn_goToCabAct"-->
+    <!--android:layout_alignParentRight="true"-->
+    <!--android:layout_alignParentEnd="true">-->
 
-        <com.getbase.floatingactionbutton.FloatingActionButton
-            android:id="@+id/action_b"
-            android:layout_width="wrap_content"
-            android:background="@drawable/nearme"
-            android:layout_height="wrap_content"
-            fab:fab_colorNormal="@color/material_blue_500"
-            fab:fab_colorPressed="@color/colorPrimary"
-            fab:fab_title="Nearby Places" />
+    <!--<com.getbase.floatingactionbutton.FloatingActionButton-->
+    <!--android:id="@+id/action_a"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:src="@drawable/gallery"-->
+    <!--fab:fab_colorNormal="@color/orange"-->
+    <!--fab:fab_colorPressed="@color/colorPrimary"-->
+    <!--fab:fab_title="Digital Storage" />-->
 
-    </com.getbase.floatingactionbutton.FloatingActionsMenu>
+    <!--<com.getbase.floatingactionbutton.FloatingActionButton-->
+    <!--android:id="@+id/action_b"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:background="@drawable/nearme"-->
+    <!--fab:fab_colorNormal="@color/material_blue_500"-->
+    <!--fab:fab_colorPressed="@color/colorPrimary"-->
+    <!--fab:fab_title="Nearby Places" />-->
+
+    <!--<com.getbase.floatingactionbutton.FloatingActionButton-->
+    <!--android:id="@+id/action_c"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:background="@drawable/nearme"-->
+    <!--fab:fab_colorNormal="@color/cpb_green"-->
+    <!--fab:fab_colorPressed="@color/colorPrimary"-->
+    <!--fab:fab_title="Register for Live Tracking" />-->
+
+    <!--<com.getbase.floatingactionbutton.FloatingActionButton-->
+    <!--android:id="@+id/action_d"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:background="@drawable/nearme"-->
+    <!--fab:fab_colorNormal="@color/orange"-->
+    <!--fab:fab_colorPressed="@color/colorPrimary"-->
+    <!--fab:fab_title="Start Live Tracking" />-->
+
+    <!--<com.getbase.floatingactionbutton.FloatingActionButton-->
+    <!--android:id="@+id/action_e"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:background="@drawable/nearme"-->
+    <!--fab:fab_colorNormal="@color/colorAccent"-->
+    <!--fab:fab_colorPressed="@color/colorPrimary"-->
+    <!--fab:fab_title="Grievance" />-->
 
 
+    <!--<com.getbase.floatingactionbutton.FloatingActionButton-->
+    <!--android:id="@+id/action_f"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:background="@drawable/nearme"-->
+    <!--fab:fab_colorNormal="@color/cpb_green"-->
+    <!--fab:fab_colorPressed="@color/colorPrimary"-->
+    <!--fab:fab_title="Crisis Management" />-->
+
+    <!--<com.getbase.floatingactionbutton.FloatingActionButton-->
+    <!--android:id="@+id/action_g"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:background="@drawable/nearme"-->
+    <!--fab:fab_colorNormal="@color/orange"-->
+    <!--fab:fab_colorPressed="@color/colorPrimary"-->
+    <!--fab:fab_title="HOME" />-->
+
+    <!--</com.getbase.floatingactionbutton.FloatingActionsMenu>-->
 
 
-
-</RelativeLayout>
+</android.support.constraint.ConstraintLayout>

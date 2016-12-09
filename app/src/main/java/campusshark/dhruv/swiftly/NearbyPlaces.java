@@ -16,6 +16,8 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Toast;
 
+import com.getbase.floatingactionbutton.FloatingActionButton;
+
 import java.util.ArrayList;
 import java.util.Map;
 
@@ -111,6 +113,71 @@ public class NearbyPlaces extends AppCompatActivity {
         mRecyclerView.setLayoutManager(mLayoutManager);
         mAdapter = new MyRecyclerViewAdapter(getDataSet());
         mRecyclerView.setAdapter(mAdapter);
+
+        final FloatingActionButton actionA = (FloatingActionButton) findViewById(R.id.action_a);
+        actionA.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(NearbyPlaces.this, TravelEntry.class);
+                startActivity(i);
+            }
+        });
+
+        final FloatingActionButton actionB = (FloatingActionButton) findViewById(R.id.action_b);
+        actionB.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(NearbyPlaces.this, DigitalStorage.class);
+                startActivity(i);
+            }
+        });
+
+        final FloatingActionButton actionC = (FloatingActionButton) findViewById(R.id.action_c);
+        actionC.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(NearbyPlaces.this, RegisterForTracking.class);
+                startActivity(i);
+            }
+        });
+
+        final FloatingActionButton actionD = (FloatingActionButton) findViewById(R.id.action_d);
+        actionD.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(NearbyPlaces.this, WhoYouWantToTrack.class);
+                startActivity(i);
+            }
+        });
+
+        final FloatingActionButton actionE = (FloatingActionButton) findViewById(R.id.action_e);
+        actionE.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(NearbyPlaces.this, RegisterForTracking.class);
+                startActivity(i);
+            }
+        });
+
+        final FloatingActionButton actionF = (FloatingActionButton) findViewById(R.id.action_f);
+        actionF.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(NearbyPlaces.this, CrisisActivity.class);
+                startActivity(i);
+            }
+        });
+
+        final FloatingActionButton actionG = (FloatingActionButton) findViewById(R.id.action_g);
+        actionG.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(NearbyPlaces.this, MainActivity.class);
+                startActivity(i);
+            }
+        });
+
+
 
         FindLocation();
         url = "https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=" + currentLat + "," + currentLong + "&rankby=distance&type=" + temp + "&keyword=" + temp + "&key=" + APIKEY;

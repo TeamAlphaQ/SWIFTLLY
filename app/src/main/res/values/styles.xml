@@ -17,7 +17,7 @@
     <style name="menu_labels_style">
         <item name="android:textStyle">bold</item>
         <item name="android:backgroundDimEnabled">true</item>
-        <item name="android:textColor">@color/orange</item>
+        <item name="android:textColor">@color/uber_black</item>
     </style>
 
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />

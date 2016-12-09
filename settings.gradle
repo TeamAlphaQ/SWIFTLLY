@@ -1,4 +1,4 @@
 include ':app'
 
 include ':scanlibrary'
-project(':scanlibrary').projectDir = new File('C:\\Users\\SIDDHANT CHADHA\\Desktop\\SWIFTLY\\app\\libs\\scanlibrary')
+project(':scanlibrary').projectDir = new File('/home/dhruv/AlphaQ/SWIFTLY/app/libs/scanlibrary')

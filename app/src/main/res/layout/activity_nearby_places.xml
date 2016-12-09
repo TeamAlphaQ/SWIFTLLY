@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_nearby_places"
     android:layout_width="match_parent"
@@ -16,6 +17,86 @@
         android:id="@+id/places_recycler_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_marginBottom="10dp"
         android:scrollbars="vertical" />
+
+    <com.getbase.floatingactionbutton.FloatingActionsMenu
+        android:id="@+id/multiple_actions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/places_recycler_view"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        fab:fab_addButtonColorNormal="@color/colorPrimary"
+        fab:fab_addButtonColorPressed="@color/teal1"
+        fab:fab_addButtonPlusIconColor="@color/teal1"
+        fab:fab_labelStyle="@style/menu_labels_style">
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/action_a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/gallery"
+            fab:fab_colorNormal="@color/colorPrimaryDark"
+            fab:fab_colorPressed="@color/colorPrimary"
+            fab:fab_title="Digital Storage" />
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/action_b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/nearme"
+            fab:fab_colorNormal="@color/material_blue_500"
+            fab:fab_colorPressed="@color/colorPrimary"
+            fab:fab_title="Digital Storage" />
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/action_c"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/nearme"
+            fab:fab_colorNormal="@color/cpb_green"
+            fab:fab_colorPressed="@color/colorPrimary"
+            fab:fab_title="Register for Live Tracking" />
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/action_d"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/nearme"
+            fab:fab_colorNormal="@color/orange"
+            fab:fab_colorPressed="@color/colorPrimary"
+            fab:fab_title="Start Live Tracking" />
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/action_e"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/nearme"
+            fab:fab_colorNormal="@color/colorAccent"
+            fab:fab_colorPressed="@color/colorPrimary"
+            fab:fab_title="Grievance" />
+
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/action_f"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/nearme"
+            fab:fab_colorNormal="@color/cpb_green"
+            fab:fab_colorPressed="@color/colorPrimary"
+            fab:fab_title="Crisis Management" />
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/action_g"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/nearme"
+            fab:fab_colorNormal="@color/orange"
+            fab:fab_colorPressed="@color/colorPrimary"
+            fab:fab_title="HOME" />
+
+    </com.getbase.floatingactionbutton.FloatingActionsMenu>
+
 
 </RelativeLayout>

@@ -23,14 +23,8 @@
 
         <activity
             android:name=".LiveTrackMap"
-            android:label="@string/title_activity_live_track_map"></activity>
-        <activity android:name=".MainActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+            android:label="@string/title_activity_live_track_map" />
+        <activity android:name=".MainActivity"></activity>
         <activity
             android:name=".CabActivity"
             android:label="@string/title_activity_cab"
@@ -52,22 +46,23 @@
             android:exported="true" />
 
         <activity android:name=".WhoYouWantToTrack" />
-        <activity android:name=".LicenceDetails"></activity>
+        <activity android:name=".LicenceDetails" />
         <activity android:name=".uploadActivity" />
         <activity
             android:name=".AppIntro"
             android:theme="@style/Theme.Intro" />
-        <activity android:name=".CrisisActivity"
-            android:theme="@style/Theme.AppCompat.Light">
+        <activity
+            android:name=".CrisisActivity"
+            android:theme="@style/Theme.AppCompat.Light"></activity>
+        <activity android:name=".DriverSeesRequester"></activity>
+        <activity android:name=".MapsActivity"></activity>
+        <activity android:name=".ViewRequests"></activity>
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
-        </activity>
-        <activity android:name=".DriverSeesRequester">
-
-        </activity>
-        <activity android:name=".MapsActivity">
-
-        </activity>
-        <activity android:name=".ViewRequests">
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
 
         </activity>
     </application>

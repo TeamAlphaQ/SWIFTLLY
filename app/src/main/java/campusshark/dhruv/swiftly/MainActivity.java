@@ -40,6 +40,7 @@ public class MainActivity extends AppCompatActivity {
         Intent i = new Intent(MainActivity.this, DigitalStorage.class);
         startActivity(i);
     }
+
     boolean firstTime;
 
     SharedPreferences sharedPreferences;
@@ -51,13 +52,13 @@ public class MainActivity extends AppCompatActivity {
 
         sharedPreferences = this.getSharedPreferences("campusshark.dhruv.swiflty", Context.MODE_PRIVATE);
 
-        if (sharedPreferences.getBoolean("firstTime",true)) {
+        if (sharedPreferences.getBoolean("firstTime", true)) {
 
-            Intent intent = new Intent(MainActivity.this,AppIntro.class);
+            Intent intent = new Intent(MainActivity.this, AppIntro.class);
             startActivity(intent);
 
-            firstTime=false;
-            sharedPreferences.edit().putBoolean("firstTime",firstTime).apply();
+            firstTime = false;
+            sharedPreferences.edit().putBoolean("firstTime", firstTime).apply();
         }
 
 
@@ -110,7 +111,7 @@ public class MainActivity extends AppCompatActivity {
         actionA.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(MainActivity.this, CabActivity.class);
+                Intent i = new Intent(MainActivity.this, TravelEntry.class);
                 startActivity(i);
             }
         });
@@ -125,10 +126,46 @@ public class MainActivity extends AppCompatActivity {
         });
 
         final FloatingActionButton actionC = (FloatingActionButton) findViewById(R.id.action_c);
-        actionB.setOnClickListener(new View.OnClickListener() {
+        actionC.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent i = new Intent(MainActivity.this, RegisterForTracking.class);
+                startActivity(i);
+            }
+        });
+
+        final FloatingActionButton actionD = (FloatingActionButton) findViewById(R.id.action_d);
+        actionD.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(MainActivity.this, WhoYouWantToTrack.class);
+                startActivity(i);
+            }
+        });
+
+        final FloatingActionButton actionE = (FloatingActionButton) findViewById(R.id.action_e);
+        actionE.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(MainActivity.this, RegisterForTracking.class);
+                startActivity(i);
+            }
+        });
+
+        final FloatingActionButton actionF = (FloatingActionButton) findViewById(R.id.action_f);
+        actionF.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(MainActivity.this, CrisisActivity.class);
+                startActivity(i);
+            }
+        });
+
+        final FloatingActionButton actionG = (FloatingActionButton) findViewById(R.id.action_g);
+        actionG.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(MainActivity.this, DigitalStorage.class);
                 startActivity(i);
             }
         });

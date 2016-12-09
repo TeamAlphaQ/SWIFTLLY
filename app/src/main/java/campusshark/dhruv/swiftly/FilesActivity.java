@@ -6,6 +6,12 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.getbase.floatingactionbutton.FloatingActionButton;
+
+import org.apache.log4j.chainsaw.Main;
+
+import java.io.File;
+
 import mehdi.sakout.fancybuttons.FancyButton;
 
 public class FilesActivity extends AppCompatActivity {
@@ -88,6 +94,70 @@ public class FilesActivity extends AppCompatActivity {
                 tapFunction(otherFileButton);
             }
         });
+
+        final FloatingActionButton actionA = (FloatingActionButton) findViewById(R.id.action_a);
+        actionA.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(FilesActivity.this, TravelEntry.class);
+                startActivity(i);
+            }
+        });
+
+        final FloatingActionButton actionB = (FloatingActionButton) findViewById(R.id.action_b);
+        actionB.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(FilesActivity.this, NearbyPlaces.class);
+                startActivity(i);
+            }
+        });
+
+        final FloatingActionButton actionC = (FloatingActionButton) findViewById(R.id.action_c);
+        actionC.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(FilesActivity.this, RegisterForTracking.class);
+                startActivity(i);
+            }
+        });
+
+        final FloatingActionButton actionD = (FloatingActionButton) findViewById(R.id.action_d);
+        actionD.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(FilesActivity.this, WhoYouWantToTrack.class);
+                startActivity(i);
+            }
+        });
+
+        final FloatingActionButton actionE = (FloatingActionButton) findViewById(R.id.action_e);
+        actionE.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(FilesActivity.this, RegisterForTracking.class);
+                startActivity(i);
+            }
+        });
+
+        final FloatingActionButton actionF = (FloatingActionButton) findViewById(R.id.action_f);
+        actionF.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(FilesActivity.this, CrisisActivity.class);
+                startActivity(i);
+            }
+        });
+
+        final FloatingActionButton actionG = (FloatingActionButton) findViewById(R.id.action_g);
+        actionG.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(FilesActivity.this, MainActivity.class);
+                startActivity(i);
+            }
+        });
+
 
     }
 }
