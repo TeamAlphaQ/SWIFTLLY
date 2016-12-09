@@ -7,165 +7,243 @@
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="campusshark.dhruv.swiftly.MainActivity">
+    tools:context="campusshark.dhruv.swiftly.MainActivity"
+    android:background="@color/colorPrimary">
 
-    <mehdi.sakout.fancybuttons.FancyButton
-        android:id="@+id/btn_cabs"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="95dp"
-        android:paddingBottom="10dp"
-        android:paddingLeft="20dp"
-        android:paddingRight="20dp"
-        android:paddingTop="10dp"
-        fancy:fb_borderColor="#FFFFFF"
-        fancy:fb_borderWidth="1dp"
-        fancy:fb_defaultColor="#7ab800"
-        fancy:fb_focusColor="#9bd823"
-        fancy:fb_iconPosition="left"
-        fancy:fb_radius="30dp"
-        fancy:fb_text=" C    A     B     S "
-        fancy:fb_textColor="#FFFFFF" />
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:scrollbars="none">
 
-    <mehdi.sakout.fancybuttons.FancyButton
-        android:id="@+id/btn_nearby_places"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/btn_cabs"
-        android:layout_alignStart="@+id/btn_cabs"
-        android:layout_below="@+id/btn_cabs"
-        android:layout_marginTop="36dp"
-        android:paddingBottom="10dp"
-        android:paddingLeft="20dp"
-        android:paddingRight="20dp"
-        android:paddingTop="10dp"
-        fancy:fb_borderColor="#FFFFFF"
-        fancy:fb_borderWidth="1dp"
-        fancy:fb_defaultColor="#7ab800"
-        fancy:fb_focusColor="#9bd823"
-        fancy:fb_iconPosition="left"
-        fancy:fb_radius="30dp"
-        fancy:fb_text=" NEARBY PLACES   "
-        fancy:fb_textColor="#FFFFFF" />
-
-
-    <mehdi.sakout.fancybuttons.FancyButton
-        android:id="@+id/btn_live_tracking"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/btn_cabs"
-        android:layout_alignStart="@+id/btn_cabs"
-        android:layout_below="@+id/btn_nearby_places"
-        android:layout_marginTop="36dp"
-        android:paddingBottom="10dp"
-        android:paddingLeft="20dp"
-        android:paddingRight="20dp"
-        android:paddingTop="10dp"
-        fancy:fb_borderColor="#FFFFFF"
-        fancy:fb_borderWidth="1dp"
-        fancy:fb_defaultColor="#7ab800"
-        fancy:fb_focusColor="#9bd823"
-        fancy:fb_iconPosition="left"
-        fancy:fb_radius="30dp"
-        fancy:fb_text=" LIVE TRACKING   "
-        fancy:fb_textColor="#FFFFFF" />
-
-
-
-
-    <com.getbase.floatingactionbutton.FloatingActionsMenu
-        android:id="@+id/multiple_actions"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="13dp"
-        fab:fab_addButtonColorNormal="@color/red_real"
-        fab:fab_addButtonColorPressed="@color/teal1"
-        fab:fab_addButtonPlusIconColor="@color/teal1"
-        fab:fab_labelStyle="@style/menu_labels_style"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true">
-
-        <com.getbase.floatingactionbutton.FloatingActionButton
-            android:id="@+id/action_a"
-            android:layout_width="wrap_content"
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            fab:fab_colorNormal="@color/orange"
-            fab:fab_colorPressed="@color/colorPrimary"
-            fab:fab_title="Call a cab" />
-
-        <com.getbase.floatingactionbutton.FloatingActionButton
-            android:id="@+id/action_b"
-            android:layout_width="wrap_content"
-            android:background="@drawable/nearme"
-            android:layout_height="wrap_content"
-            fab:fab_colorNormal="@color/material_blue_500"
-            fab:fab_colorPressed="@color/colorPrimary"
-            fab:fab_title="Nearby Places" />
-
-        <com.getbase.floatingactionbutton.FloatingActionButton
-            android:id="@+id/action_c"
-            android:layout_width="wrap_content"
-            android:background="@drawable/nearme"
-            android:layout_height="wrap_content"
-            fab:fab_colorNormal="@color/cpb_green"
-            fab:fab_colorPressed="@color/colorPrimary"
-            fab:fab_title="Register for Live Tracking" />
-
-    </com.getbase.floatingactionbutton.FloatingActionsMenu>
+            android:orientation="vertical">
 
 
-    <!--<com.wangjie.rapidfloatingactionbutton.RapidFloatingActionLayout-->
-    <!--xmlns:rfal="http://schemas.android.com/apk/res-auto"-->
-    <!--android:id="@+id/activity_main_rfal"-->
-    <!--android:layout_width="match_parent"-->
-    <!--android:layout_height="match_parent"-->
-    <!--rfal:rfal_frame_alpha="0.7"-->
-    <!--rfal:rfal_frame_color="#ffffff">-->
+            <TextView
+                android:text="SWIFTLY"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView4"
+                android:textAlignment="center"
+                android:textSize="30sp"
+                android:textColor="@color/cpb_white"
+                android:background="@color/colorPrimary"
+                android:textStyle="normal|bold" />
 
-    <!--<com.wangjie.rapidfloatingactionbutton.RapidFloatingActionButton-->
-    <!--xmlns:rfab="http://schemas.android.com/apk/res-auto"-->
-    <!--android:id="@+id/activity_main_rfab"-->
-    <!--android:layout_width="wrap_content"-->
-    <!--android:layout_height="wrap_content"-->
-    <!--android:layout_alignParentBottom="true"-->
-    <!--android:layout_alignParentRight="true"-->
-    <!--android:layout_marginBottom="15dp"-->
-    <!--android:layout_marginRight="15dp"-->
-    <!--android:padding="8dp"-->
-    <!--rfab:rfab_color_normal="#ff5722"-->
-    <!--rfab:rfab_color_pressed="#263238"-->
-    <!--rfab:rfab_drawable="@drawable/airport"-->
-    <!--rfab:rfab_shadow_color="#999999"-->
-    <!--rfab:rfab_shadow_dx="0dp"-->
-    <!--rfab:rfab_shadow_dy="5dp"-->
-    <!--rfab:rfab_shadow_radius="7dp"-->
-    <!--rfab:rfab_size="normal" />-->
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="2dp">
 
-    <!--</com.wangjie.rapidfloatingactionbutton.RapidFloatingActionLayout>-->
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="10dp"
+                    android:layout_weight="1"
+                    android:id="@+id/crisis"
+                    android:layout_marginRight="2dp"
+                    android:layout_marginLeft="2dp">
 
-    <Button
-        android:text="Button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:id="@+id/button4" />
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:src="@drawable/emergency"
+                        android:layout_marginLeft="20dp"
+                        android:id="@+id/emergency"
+                        />
 
-    <Button
-        android:text="Button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_alignLeft="@+id/button2"
-        android:layout_alignStart="@+id/button2"
-        android:id="@+id/crisis" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="AMBULANCE"
+                        android:layout_marginTop="150dp"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textAlignment="center" />
+
+                </android.support.v7.widget.CardView>
+
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    android:id="@+id/button4"
+                    android:layout_marginRight="2dp"
+                    android:layout_marginLeft="2dp">
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:src="@drawable/digital"
+                        android:layout_marginLeft="20dp"
+                        android:id="@+id/digital"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="STORAGE"
+                        android:layout_marginTop="150dp"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textAlignment="center" />
+
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="2dp">
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="10dp"
+                    android:layout_weight="1"
+                    android:id="@+id/btn_live_tracking"
+                    android:layout_marginRight="2dp"
+                    android:layout_marginLeft="2dp">
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:src="@drawable/tracking"
+                        android:layout_marginLeft="20dp"
+                        android:id="@+id/tracking"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="TRACKING"
+                        android:layout_marginTop="150dp"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textAlignment="center" />
+
+                </android.support.v7.widget.CardView>
+
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    android:id="@+id/btn_nearby_places"
+                    android:layout_marginRight="2dp"
+                    android:layout_marginLeft="2dp">
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:src="@drawable/places"
+                        android:layout_marginLeft="20dp"
+                        android:id="@+id/places"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="PLACES"
+                        android:layout_marginTop="150dp"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textAlignment="center" />
+
+                </android.support.v7.widget.CardView>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="2dp">
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="10dp"
+                    android:layout_weight="1"
+                    android:layout_marginRight="2dp"
+                    android:layout_marginLeft="2dp"
+                    android:id="@+id/portalcard">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/portal"
+                        android:layout_marginLeft="40dp"
+                        android:layout_marginTop="35dp"
+                        android:id="@+id/portal"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="PORTAL"
+                        android:layout_marginTop="150dp"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textAlignment="center" />
+
+                </android.support.v7.widget.CardView>
+
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    android:id="@+id/btn_cabs"
+                    android:layout_marginRight="2dp"
+                    android:layout_marginLeft="2dp">
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:src="@drawable/taxi"
+                        android:layout_marginLeft="20dp"
+                        android:id="@+id/taxi"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="TAXI FARES"
+                        android:layout_marginTop="150dp"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textAlignment="center" />
+
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="Team Aplha-Q"
+                android:textSize="20sp"
+                android:textColor="@color/cpb_white"
+                android:textStyle="normal|bold"
+                android:textAllCaps="true" />
+        </LinearLayout>
+    </ScrollView>
 
 
 </RelativeLayout>

@@ -6,6 +6,7 @@ import android.content.SharedPreferences;
 import android.graphics.Color;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.CardView;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
@@ -32,9 +33,9 @@ import mehdi.sakout.fancybuttons.FancyButton;
 
 public class MainActivity extends AppCompatActivity {
 
-    FancyButton btnCabs;
-    FancyButton btnNearby;
-    FancyButton btnLiveTrack;
+    CardView btnCabs;
+    CardView btnNearby;
+    CardView btnLiveTrack;
 
     public void buttoncode(View view) {
         Intent i = new Intent(MainActivity.this, DigitalStorage.class);
@@ -61,7 +62,7 @@ public class MainActivity extends AppCompatActivity {
         }
 
 
-        btnCabs = (FancyButton) findViewById(R.id.btn_cabs);
+        btnCabs = (CardView) findViewById(R.id.btn_cabs);
         btnCabs.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -70,7 +71,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        btnNearby = (FancyButton) findViewById(R.id.btn_nearby_places);
+        btnNearby = (CardView) findViewById(R.id.btn_nearby_places);
         btnNearby.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -79,7 +80,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        btnLiveTrack = (FancyButton) findViewById(R.id.btn_live_tracking);
+        btnLiveTrack = (CardView) findViewById(R.id.btn_live_tracking);
         btnLiveTrack.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -88,7 +89,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        Button b = (Button) findViewById(R.id.button4);
+        CardView b = (CardView) findViewById(R.id.button4);
         b.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -97,7 +98,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        Button crisis = (Button) findViewById(R.id.crisis);
+        CardView crisis = (CardView) findViewById(R.id.crisis);
         crisis.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -106,7 +107,16 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        final FloatingActionButton actionA = (FloatingActionButton) findViewById(R.id.action_a);
+        CardView portal = (CardView)findViewById(R.id.portalcard);
+        portal.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(MainActivity.this, GPortal.class);
+                startActivity(i);
+            }
+        });
+
+     /*   final FloatingActionButton actionA = (FloatingActionButton) findViewById(R.id.action_a);
         actionA.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -132,6 +142,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(i);
             }
         });
+        */
 
     }
 

@@ -277,7 +277,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
-        sha1="2d1e0aa0346e4a99e731c5713a4fc229d64e77fd">
+        sha1="2127ff8446ea5ab95b755fe093a285fb7d6d3ccf">
         <dex dex="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_d1a72aad546257cb97c274ff88463115ea7f3ac6\classes.dex" />
     </item>
     <item
@@ -808,7 +808,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
-        sha1="bcb2f0c80fa555f41b98efce9e11dd85d02ee731">
+        sha1="0d60f0b4f001e09308735d5f73630b0a9fbf7543">
         <dex dex="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_1721d1c6f411bbcce76fae7ad6e8c6955cbad791\classes.dex" />
     </item>
     <item
@@ -837,6 +837,15 @@
         revision="24.0.3"
         sha1="9c665b797ef9427f6d73572642dcb5f90270f7d3">
         <dex dex="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\transforms\dex\debug\folders\1000\10\moshi-1.1.0_9332e84038f8a387b44c17fb67f99ee7f3e18519\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\exploded-aar\com.rengwuxian.materialedittext\library\2.1.4\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="288913b440a3c61c30aa171095453a605432277a">
+        <dex dex="C:\Users\SIDDHANT CHADHA\Desktop\SWIFTLY\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.rengwuxian.materialedittext-library-2.1.4_96dc495bd8403652224ba38c9ad3bc92b919a59c\classes.dex" />
     </item>
     <item
         is-multidex="true"
