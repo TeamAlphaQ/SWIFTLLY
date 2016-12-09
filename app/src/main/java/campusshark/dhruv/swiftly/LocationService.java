@@ -112,7 +112,7 @@ public class LocationService extends Service {
                 while (true) {
                     try {
                         Log.d(TAG, "firstRun");
-                        Thread.sleep(60000);
+                        Thread.sleep(10000);
                         handler.post(new Runnable() {
                             @Override
                             public void run() {

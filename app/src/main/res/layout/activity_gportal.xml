@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_gportal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="campusshark.dhruv.swiftly.GPortal"
+    android:background="#FFFFFF">
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SUBMIT"
+        android:background="@color/colorPrimary"
+        android:textColor="#FFFFFF"
+        android:layout_alignParentBottom="true"
+        android:textSize="20sp"
+        android:id="@+id/SUBMIT" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="50dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint=" First Name"
+            android:id="@+id/fName"
+            app:met_primaryColor="@color/colorPrimary"
+            app:met_textColor="#000000"
+            app:met_floatingLabel="highlight"
+            android:layout_weight="1"
+            app:met_singleLineEllipsis="true"
+            android:layout_marginRight="4dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="4dp"/>
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Last Name"
+            android:id="@+id/lName"
+            app:met_textColor="#000000"
+            app:met_floatingLabel="highlight"
+            app:met_singleLineEllipsis="true"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="4dp"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:id="@+id/textView5"
+                android:background="@color/teal"
+                android:layout_height="3dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimary"
+                android:textAlignment="center"
+                android:text="SELECT TYPE"
+                android:layout_marginTop="7dp" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="8dp">
+
+                <CheckBox
+                    android:text="Poor Service"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/pService"
+                    android:layout_weight="0.77"
+                    android:textColorLink="@android:color/holo_orange_dark"
+                    app:buttonTint="@color/colorPrimaryDark"
+                    android:textColor="@android:color/black" />
+
+                <CheckBox
+                    android:text="Corruption"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/Corruption"
+                    android:layout_weight="1"
+                    app:buttonTint="@color/colorPrimaryDark"
+                    android:textColor="@android:color/black"
+                    android:textAlignment="viewStart" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <CheckBox
+                    android:text="Harassment"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/Harassment"
+                    android:layout_weight="1"
+                    android:textColorLink="?attr/colorPrimaryDark"
+                    app:buttonTint="@color/colorPrimaryDark"
+                    android:textColor="@android:color/black" />
+
+                <CheckBox
+                    android:text="Scheme Related"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/Scheme"
+                    android:layout_weight="1"
+                    android:textColorLink="?attr/colorPrimaryDark"
+                    app:buttonTint="@color/colorPrimaryDark"
+                    android:textColor="@android:color/black"
+                    android:layout_marginLeft="16dp"/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:id="@+id/textView6"
+                android:layout_marginTop="6dp"
+                android:background="@color/teal"
+                android:layout_height="3dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimary"
+                android:textAlignment="center"
+                android:text="ENTER COMPLAINT"
+                android:layout_marginTop="7dp" />
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/complaint"
+                android:hint="Enter Complaint"
+                android:layout_marginTop="10dp"
+                app:met_maxCharacters="1000"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:id="@+id/textView7"
+                android:layout_marginTop="6dp"
+                android:background="@color/teal"
+                android:layout_height="3dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimary"
+                android:textAlignment="center"
+                android:text="ENTER PHONE NUMBER"
+                android:layout_marginTop="7dp" />
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint=" 9999999-XX"
+                android:id="@+id/phone"
+                android:inputType="number"
+                app:met_maxCharacters="10"
+                app:met_minCharacters="10"
+                app:met_textColor="#000000"
+                app:met_floatingLabelText="Phone"
+                app:met_floatingLabel="highlight"
+                android:layout_weight="1"
+                app:met_singleLineEllipsis="true"
+                android:layout_marginRight="4dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="4dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:id="@+id/textView8"
+                android:layout_marginTop="6dp"
+                android:background="@color/teal"
+                android:layout_height="3dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" The Grievances should not be about : \n
+                     1. RTI Matters\n
+                     2. Court related / Subjudice matters\n
+                     3. Grievance against foreign Government\n
+                     4. Religious matters\n
+                     5. Suggestions\n"
+                android:layout_marginTop="10dp"
+                android:id="@+id/submit" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

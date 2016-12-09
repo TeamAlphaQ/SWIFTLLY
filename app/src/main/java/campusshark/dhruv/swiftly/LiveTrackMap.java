@@ -85,7 +85,7 @@ public class LiveTrackMap extends FragmentActivity implements OnMapReadyCallback
             public void run() {
                 while (true) {
                     try {
-                        Thread.sleep(60000);     // change it later (current = 1 min)
+                        Thread.sleep(10000);     // change it later (current = 1 min)
                         handler.post(new Runnable() {
                             @Override
                             public void run() {

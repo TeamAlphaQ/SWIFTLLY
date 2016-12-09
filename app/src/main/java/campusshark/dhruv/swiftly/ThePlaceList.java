@@ -1,6 +1,8 @@
 package campusshark.dhruv.swiftly;
 
 import android.app.ProgressDialog;
+import android.content.Intent;
+import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -26,6 +28,7 @@ public class ThePlaceList extends AppCompatActivity {
     public String jsonStr;
     public static String placeId[] = new String[100];
     public int currPlaceID = 0;
+    public static int pos = 0;
     public int index = 0;
     public String jsonPlaceDetails[] = new String[100];
     public JSONArray result = new JSONArray();
@@ -59,6 +62,10 @@ public class ThePlaceList extends AppCompatActivity {
         ((rvAdapterType) adapter).setOnItemClickListener(new rvAdapterType.MyClickListener1() {
             @Override
             public void onItemClick(int position, View v) {
+                pos = position;
+                Intent intent = new Intent(android.content.Intent.ACTION_VIEW,
+                        Uri.parse(urlMKC[position]));
+                startActivity(intent);
                 Log.d(TAG, "Clicked on Item " + position);
             }
         });
